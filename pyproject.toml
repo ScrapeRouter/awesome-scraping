@@ -1,0 +1,11 @@
+[project]
+name = "awesome-scraping"
+version = "0.1.0"
+description = "A curated list of awesome scraping tools and libraries"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.0",
+]
+
+[dependency-groups]
+dev = []
