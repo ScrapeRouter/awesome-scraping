@@ -8,6 +8,7 @@ on:
     paths:
       - 'urls.json'
       - 'scripts/update_readme.py'
+      - '.github/workflows/update-readme.yml'
 
 jobs:
   update-readme:
