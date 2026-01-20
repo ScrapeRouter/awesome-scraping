@@ -32,19 +32,18 @@ def fetch_repo_data(owner: str, repo: str, token: str | None = None) -> dict | N
 
     data = response.json()
 
-    # Fetch latest release for version
+    # Fetch latest release for version and updated_at
     releases_url = f"https://api.github.com/repos/{owner}/{repo}/releases/latest"
     release_response = requests.get(releases_url, headers=headers, timeout=30)
     version = "-"
+    updated_at = "-"
     if release_response.status_code == 200:
         release_data = release_response.json()
         version = release_data.get("tag_name", "-")
-
-    # Format updated_at date
-    updated_at = data.get("updated_at", "")
-    if updated_at:
-        dt = datetime.fromisoformat(updated_at.replace("Z", "+00:00"))
-        updated_at = dt.strftime("%Y-%m-%d")
+        published_at = release_data.get("published_at", "")
+        if published_at:
+            dt = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
+            updated_at = dt.strftime("%Y-%m-%d")
 
     return {
         "name": data.get("name", repo),
