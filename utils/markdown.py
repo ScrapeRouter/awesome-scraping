@@ -47,7 +47,7 @@ def update_readme(table: str, readme_path: str = "README.md") -> None:
         table: Markdown table content
         readme_path: Path to README file (default: README.md)
     """
-    header = "# awesome-scraping\n\nA curated list of awesome scraping tools and libraries.\n\n"
+    header = "# awesome-scraping\n\nA curated list of awesome scraping tools and libraries. Human-selected repositories, information updated automatically every day.\n\n"
     content = header + "## Repositories\n\n" + table + "\n"
 
     with open(readme_path, "w") as f:
