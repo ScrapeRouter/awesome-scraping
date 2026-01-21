@@ -78,5 +78,8 @@
             "playwright",
             "web"
         ]
+    },
+    {
+        "url": "https://github.com/firecrawl/firecrawl"
     }
 ]
