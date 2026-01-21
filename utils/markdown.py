@@ -24,12 +24,18 @@ def generate_markdown_table(repos: list[dict]) -> str:
         "| Repository | Description | ⭐ Stars | Version | Updated |",
         "|------------|-------------|-------|---------|---------|",
     ]
-
     for repo in sorted_repos:
-        name_link = f"<a href=\"{repo['url']}\" target=\"_blank\">{repo['name']}</a>"
-        description = repo["description"][:80] + "..." if len(repo["description"]) > 80 else repo["description"]
+        name = repo['name']
+        name = name.replace(' | ', ' ')
+        name = name.replace('|', '')
+        name_link = f"<a href=\"{repo['url']}\" target=\"_blank\">{name}</a>"
+        full_description = repo["description"]
+        full_description = full_description.replace(' | ', ' ')
+        full_description = full_description.replace('|', '')
+        description = full_description[:80] + "..." if len(full_description) > 80 else full_description
+        description_with_title = f"<span title=\"{full_description}\">{description}</span>"
         stars = f"{repo['stars']:,}"
-        lines.append(f"| {name_link} | {description} | {stars} | {repo['version']} | {repo['updated_at']} |")
+        lines.append(f"| {name_link} | {description_with_title} | {stars} | {repo['version']} | {repo['updated_at']} |")
 
     return "\n".join(lines)
 

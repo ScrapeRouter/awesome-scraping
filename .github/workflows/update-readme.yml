@@ -9,6 +9,8 @@ on:
       - 'urls.json'
       - 'scripts/update_readme.py'
       - '.github/workflows/update-readme.yml'
+      - 'utils/markdown.py'
+      - 'utils/github.py'
 
 jobs:
   update-readme:
