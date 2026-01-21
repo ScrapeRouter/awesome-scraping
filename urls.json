@@ -105,5 +105,20 @@
     },
     {
         "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+        "url": "https://github.com/cdpdriver/zendriver"
+    },
+    {
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python"
+    },
+    {
+        "url": "https://github.com/holgerd77/django-dynamic-scraper"
+    },
+    {
+        "url": "https://github.com/raznem/parsera"
+    },
+    {
+        "url": "https://github.com/jamesturk/scrapeghost"
     }
 ]
