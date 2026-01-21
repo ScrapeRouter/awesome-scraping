@@ -454,24 +454,864 @@
         "url": "https://github.com/oxylabs/ai-crawler-py"
     },
     {
-        "url": "https://github.com/scrapy/scrapy"
+        "url": "https://github.com/bjesus/pipet"
     },
     {
-        "url": "https://github.com/projectdiscovery/httpx"
+        "url": "https://github.com/adbar/trafilatura"
     },
     {
-        "url": "https://github.com/lexiforest/curl_cffi"
+        "url": "https://github.com/adbar/courlan"
     },
     {
-        "url": "https://github.com/python-mechanize/mechanize"
+        "url": "https://github.com/request/request"
     },
     {
-        "url": "https://github.com/hickford/MechanicalSoup"
+        "url": "https://github.com/mattcg/socks5-http-client"
+    },
+    {
+        "url": "https://github.com/cujojs/rest"
+    },
+    {
+        "url": "https://github.com/hapijs/wreck"
+    },
+    {
+        "url": "https://github.com/sindresorhus/got"
+    },
+    {
+        "url": "https://github.com/bitinn/node-fetch"
+    },
+    {
+        "url": "https://github.com/mikeal/bent"
+    },
+    {
+        "url": "https://github.com/axios/axios"
+    },
+    {
+        "url": "https://github.com/visionmedia/superagent"
+    },
+    {
+        "url": "https://github.com/node-modules/urllib"
+    },
+    {
+        "url": "https://github.com/tomas/needle"
+    },
+    {
+        "url": "https://github.com/socketio/socket.io"
+    },
+    {
+        "url": "https://github.com/socketio/engine.io"
+    },
+    {
+        "url": "https://github.com/LearnBoost/websocket.io"
+    },
+    {
+        "url": "https://github.com/theturtle32/WebSocket-Node"
+    },
+    {
+        "url": "https://github.com/mafintosh/multicast-dns"
+    },
+    {
+        "url": "https://github.com/tjfontaine/node-dns"
+    },
+    {
+        "url": "https://github.com/joseconstela/webparsy"
+    },
+    {
+        "url": "https://github.com/sylvinus/node-crawler"
+    },
+    {
+        "url": "https://github.com/cgiffard/node-simplecrawler"
+    },
+    {
+        "url": "https://github.com/apify/crawlee"
+    },
+    {
+        "url": "https://github.com/ayakashi-io/ayakashi"
+    },
+    {
+        "url": "https://github.com/nrabinowitz/pjscrape"
+    },
+    {
+        "url": "https://github.com/ariya/phantomjs"
+    },
+    {
+        "url": "https://github.com/laurentj/slimerjs"
+    },
+    {
+        "url": "https://github.com/n1k0/casperjs"
+    },
+    {
+        "url": "https://github.com/assaf/zombie"
+    },
+    {
+        "url": "https://github.com/segmentio/nightmare"
+    },
+    {
+        "url": "https://github.com/GoogleChrome/puppeteer"
+    },
+    {
+        "url": "https://github.com/yujiosaka/headless-chrome-crawler"
+    },
+    {
+        "url": "https://github.com/checkly/puppeteer-recorder"
+    },
+    {
+        "url": "https://github.com/angrykoala/wendigo"
+    },
+    {
+        "url": "https://github.com/microsoft/playwright"
+    },
+    {
+        "url": "https://github.com/inikulin/parse5"
+    },
+    {
+        "url": "https://github.com/fb55/htmlparser2"
+    },
+    {
+        "url": "https://github.com/isaacs/sax-js"
+    },
+    {
+        "url": "https://github.com/cheeriojs/cheerio"
+    },
+    {
+        "url": "https://github.com/leizongmin/js-xss"
+    },
+    {
+        "url": "https://github.com/gajus/surgeon"
+    },
+    {
+        "url": "https://github.com/jprichardson/string.js"
+    },
+    {
+        "url": "https://github.com/openexchangerates/accounting.js"
+    },
+    {
+        "url": "https://github.com/chriso/validator.js"
+    },
+    {
+        "url": "https://github.com/moment/moment"
+    },
+    {
+        "url": "https://github.com/moment/moment-timezone"
+    },
+    {
+        "url": "https://github.com/MatthewMueller/date"
+    },
+    {
+        "url": "https://github.com/guille/ms.js"
+    },
+    {
+        "url": "https://github.com/mathiasbynens/he"
+    },
+    {
+        "url": "https://github.com/openexchangerates/money.js"
+    },
+    {
+        "url": "https://github.com/gka/chroma.js"
+    },
+    {
+        "url": "https://github.com/harthur/color"
+    },
+    {
+        "url": "https://github.com/bgrins/TinyColor"
+    },
+    {
+        "url": "https://github.com/faisalman/ua-parser-js"
+    },
+    {
+        "url": "https://github.com/npm/node-semver"
+    },
+    {
+        "url": "https://github.com/jDataView/jBinary"
+    },
+    {
+        "url": "https://github.com/SheetJS/js-xlsx"
+    },
+    {
+        "url": "https://github.com/Rich-Harris/BabyParse"
+    },
+    {
+        "url": "https://github.com/knrz/CSV.js"
+    },
+    {
+        "url": "https://github.com/bestiejs/json3"
+    },
+    {
+        "url": "https://github.com/exif-js/exif-js"
+    },
+    {
+        "url": "https://github.com/tabatkins/parse-css"
+    },
+    {
+        "url": "https://github.com/CSSLint/parser-lib"
+    },
+    {
+        "url": "https://github.com/feross/parse-torrent"
+    },
+    {
+        "url": "https://github.com/forward/sql-parser"
+    },
+    {
+        "url": "https://github.com/nodeca/js-yaml"
+    },
+    {
+        "url": "https://github.com/markdown-it/markdown-it"
+    },
+    {
+        "url": "https://github.com/danmactough/node-feedparser"
+    },
+    {
+        "url": "https://github.com/calibr/node-bookmarks-parser"
+    },
+    {
+        "url": "https://github.com/NaturalNode/natural"
+    },
+    {
+        "url": "https://github.com/spencermountain/nlp_compromise"
+    },
+    {
+        "url": "https://github.com/nieldlr/Hanzi"
+    },
+    {
+        "url": "https://github.com/nyxtom/salient"
+    },
+    {
+        "url": "https://github.com/jbrooksuk/node-summary"
+    },
+    {
+        "url": "https://github.com/fortnightlabs/snowball-js"
+    },
+    {
+        "url": "https://github.com/jedp/porter-stemmer"
+    },
+    {
+        "url": "https://github.com/kristopolous/Porter-Stemmer"
+    },
+    {
+        "url": "https://github.com/MihaiValentin/lunr-languages"
+    },
+    {
+        "url": "https://github.com/wooorm/franc"
+    },
+    {
+        "url": "https://github.com/richtr/guessLanguage.js"
+    },
+    {
+        "url": "https://github.com/nodejitsu/nexpect"
+    },
+    {
+        "url": "https://github.com/mafintosh/respawn"
+    },
+    {
+        "url": "https://github.com/pgriess/node-webworker"
+    },
+    {
+        "url": "https://github.com/caolan/async"
+    },
+    {
+        "url": "https://github.com/Automattic/kue"
+    },
+    {
+        "url": "https://github.com/OptimalBits/bull"
+    },
+    {
+        "url": "https://github.com/andris9/mailparser"
+    },
+    {
+        "url": "https://github.com/sindresorhus/query-string"
+    },
+    {
+        "url": "https://github.com/medialize/URI.js/"
+    },
+    {
+        "url": "https://github.com/Mikhus/jsurl"
+    },
+    {
+        "url": "https://github.com/stretchr/arg.js"
+    },
+    {
+        "url": "https://github.com/indutny/node-ip"
+    },
+    {
+        "url": "https://github.com/beaugunderson/ip-address"
+    },
+    {
+        "url": "https://github.com/bndr/node-read"
+    },
+    {
+        "url": "https://github.com/fent/node-ytdl-core"
+    },
+    {
+        "url": "https://github.com/mauricesvay/ImageResolver"
+    },
+    {
+        "url": "https://github.com/eduardolundgren/tracking.js"
+    },
+    {
+        "url": "https://github.com/antimatter15/ocrad.js"
+    },
+    {
+        "url": "https://github.com/h2non/toxy"
+    },
+    {
+        "url": "https://github.com/apifytech/proxy-chain"
+    },
+    {
+        "url": "https://github.com/facebook/immutable-js"
+    },
+    {
+        "url": "https://github.com/lodash/lodash"
+    },
+    {
+        "url": "https://github.com/sorrycc/awesome-javascript"
+    },
+    {
+        "url": "https://github.com/shazow/urllib3"
+    },
+    {
+        "url": "https://github.com/httplib2/httplib2"
     },
     {
         "url": "https://github.com/jmcarp/robobrowser"
     },
     {
-        "url": "https://github.com/shazow/urllib3"
+        "url": "https://github.com/hickford/MechanicalSoup"
+    },
+    {
+        "url": "https://github.com/python-mechanize/mechanize"
+    },
+    {
+        "url": "https://github.com/Mashape/unirest-python"
+    },
+    {
+        "url": "https://github.com/Lukasa/hyper"
+    },
+    {
+        "url": "https://github.com/Anorov/PySocks"
+    },
+    {
+        "url": "https://github.com/lexiforest/curl_cffi"
+    },
+    {
+        "url": "https://github.com/dreid/treq"
+    },
+    {
+        "url": "https://github.com/KeepSafe/aiohttp"
+    },
+    {
+        "url": "https://github.com/projectdiscovery/httpx"
+    },
+    {
+        "url": "https://github.com/kbandla/dpkt"
+    },
+    {
+        "url": "https://github.com/pyca/pyopenssl"
+    },
+    {
+        "url": "https://github.com/tomato42/tlslite-ng"
+    },
+    {
+        "url": "https://github.com/secdev/scapy"
+    },
+    {
+        "url": "https://github.com/SecureAuthCorp/impacket/"
+    },
+    {
+        "url": "https://github.com/tavendo/AutobahnPython"
+    },
+    {
+        "url": "https://github.com/Lawouach/WebSocket-for-Python"
+    },
+    {
+        "url": "https://github.com/rthalley/dnspython"
+    },
+    {
+        "url": "https://github.com/samarudge/dnsyo"
+    },
+    {
+        "url": "https://github.com/saghul/pycares"
+    },
+    {
+        "url": "https://github.com/scrapy/scrapy"
+    },
+    {
+        "url": "https://github.com/binux/pyspider"
+    },
+    {
+        "url": "https://github.com/howie6879/ruia"
+    },
+    {
+        "url": "https://github.com/chineking/cola"
+    },
+    {
+        "url": "https://github.com/scrapinghub/frontera"
+    },
+    {
+        "url": "https://github.com/roniemartinez/dude"
+    },
+    {
+        "url": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+        "url": "https://github.com/scrapinghub/portia"
+    },
+    {
+        "url": "https://github.com/benoitc/restkit"
+    },
+    {
+        "url": "https://github.com/kennethreitz/requests-html"
+    },
+    {
+        "url": "https://github.com/my8100/scrapydweb"
+    },
+    {
+        "url": "https://github.com/HyperionGray/starbelly"
+    },
+    {
+        "url": "https://github.com/Gerapy/Gerapy"
+    },
+    {
+        "url": "https://github.com/rumca-js/crawler-buddy"
+    },
+    {
+        "url": "https://github.com/proxymesh/python-proxy-headers"
+    },
+    {
+        "url": "https://github.com/venomous/cloudscraper"
+    },
+    {
+        "url": "https://github.com/lxml/lxml/"
+    },
+    {
+        "url": "https://github.com/scrapy/cssselect"
+    },
+    {
+        "url": "https://github.com/gawel/pyquery"
+    },
+    {
+        "url": "https://github.com/html5lib/html5lib-python"
+    },
+    {
+        "url": "https://github.com/kurtmckee/feedparser"
+    },
+    {
+        "url": "https://github.com/rumca-js/brutefeedparser"
+    },
+    {
+        "url": "https://github.com/mitsuhiko/markupsafe"
+    },
+    {
+        "url": "https://github.com/martinblech/xmltodict"
+    },
+    {
+        "url": "https://github.com/chrisglass/xhtml2pdf"
+    },
+    {
+        "url": "https://github.com/stchris/untangle"
+    },
+    {
+        "url": "https://github.com/CompileInc/hodor"
+    },
+    {
+        "url": "https://github.com/jurismarches/chopper"
+    },
+    {
+        "url": "https://github.com/rushter/selectolax"
+    },
+    {
+        "url": "https://github.com/scrapy/parsel"
+    },
+    {
+        "url": "https://github.com/kovidgoyal/html5-parser"
+    },
+    {
+        "url": "https://github.com/maxhumber/gazpacho/"
+    },
+    {
+        "url": "https://github.com/mozilla/bleach"
+    },
+    {
+        "url": "https://github.com/Alir3z4/sanitize"
+    },
+    {
+        "url": "https://github.com/scrapinghub/extruct"
+    },
+    {
+        "url": "https://github.com/ztane/python-Levenshtein/"
+    },
+    {
+        "url": "https://github.com/seatgeek/fuzzywuzzy"
+    },
+    {
+        "url": "https://github.com/LuminosoInsight/python-ftfy"
+    },
+    {
+        "url": "https://github.com/moskytw/uniout"
+    },
+    {
+        "url": "https://github.com/chardet/chardet"
+    },
+    {
+        "url": "https://github.com/lxneng/xpinyin"
+    },
+    {
+        "url": "https://github.com/vinta/pangu.py"
+    },
+    {
+        "url": "https://github.com/PyYoshi/cChardet"
+    },
+    {
+        "url": "https://github.com/dimka665/awesome-slugify"
+    },
+    {
+        "url": "https://github.com/un33k/python-slugify"
+    },
+    {
+        "url": "https://github.com/mozilla/unicode-slugify"
+    },
+    {
+        "url": "https://github.com/j2a/pytils"
+    },
+    {
+        "url": "https://github.com/derek73/python-nameparser"
+    },
+    {
+        "url": "https://github.com/daviddrysdale/python-phonenumbers"
+    },
+    {
+        "url": "https://github.com/shon/httpagentparser"
+    },
+    {
+        "url": "https://github.com/ua-parser/uap-python"
+    },
+    {
+        "url": "https://github.com/selwin/python-user-agents"
+    },
+    {
+        "url": "https://github.com/hellysmile/fake-useragent"
+    },
+    {
+        "url": "https://github.com/lorien/user_agent"
+    },
+    {
+        "url": "https://github.com/seomoz/reppy"
+    },
+    {
+        "url": "https://github.com/dateutil/dateutil"
+    },
+    {
+        "url": "https://github.com/scrapinghub/dateparser"
+    },
+    {
+        "url": "https://github.com/closeio/ciso8601"
+    },
+    {
+        "url": "https://github.com/scrapinghub/price-parser"
+    },
+    {
+        "url": "https://github.com/kennethreitz/tablib"
+    },
+    {
+        "url": "https://github.com/deanmalmgren/textract"
+    },
+    {
+        "url": "https://github.com/okfn/messytables"
+    },
+    {
+        "url": "https://github.com/turicas/rows"
+    },
+    {
+        "url": "https://github.com/python-openxml/python-docx"
+    },
+    {
+        "url": "https://github.com/python-excel/xlwt"
+    },
+    {
+        "url": "https://github.com/python-excel/xlrd"
+    },
+    {
+        "url": "https://github.com/brianray/mm"
+    },
+    {
+        "url": "https://github.com/euske/pdfminer"
+    },
+    {
+        "url": "https://github.com/mstamy2/PyPDF2"
+    },
+    {
+        "url": "https://github.com/waylan/Python-Markdown"
+    },
+    {
+        "url": "https://github.com/lepture/mistune"
+    },
+    {
+        "url": "https://github.com/miyuchina/mistletoe"
+    },
+    {
+        "url": "https://github.com/yaml/pyyaml"
+    },
+    {
+        "url": "https://github.com/benoitc/http-parser"
+    },
+    {
+        "url": "https://github.com/MagicStack/httptools"
+    },
+    {
+        "url": "https://github.com/erikriver/opengraph"
+    },
+    {
+        "url": "https://github.com/erocarrera/pefile"
+    },
+    {
+        "url": "https://github.com/kmike/psd-tools"
+    },
+    {
+        "url": "https://github.com/bookmarks-tools/bookmarks-parser"
+    },
+    {
+        "url": "https://github.com/Nykakin/chompjs"
+    },
+    {
+        "url": "https://github.com/mailgun/flanker"
+    },
+    {
+        "url": "https://github.com/mailgun/talon"
+    },
+    {
+        "url": "https://github.com/ijl/orjson"
+    },
+    {
+        "url": "https://github.com/esnme/ultrajson"
+    },
+    {
+        "url": "https://github.com/jcrist/msgspec"
+    },
+    {
+        "url": "https://github.com/msgpack/msgpack-python"
+    },
+    {
+        "url": "https://github.com/pydantic/pydantic"
+    },
+    {
+        "url": "https://github.com/cloudpipe/cloudpickle"
+    },
+    {
+        "url": "https://github.com/explosion/spaCy"
+    },
+    {
+        "url": "https://github.com/fastai/fastai"
+    },
+    {
+        "url": "https://github.com/RaRe-Technologies/gensim"
+    },
+    {
+        "url": "https://github.com/clips/pattern"
+    },
+    {
+        "url": "https://github.com/fxsjy/jieba"
+    },
+    {
+        "url": "https://github.com/isnowfy/snownlp"
+    },
+    {
+        "url": "https://github.com/victorlin/loso"
+    },
+    {
+        "url": "https://github.com/duanhongyi/genius"
+    },
+    {
+        "url": "https://github.com/saffsd/langid.py"
+    },
+    {
+        "url": "https://github.com/kmike/pymorphy2"
+    },
+    {
+        "url": "https://github.com/NAMD/pypln.backend"
+    },
+    {
+        "url": "https://github.com/Mimino666/langdetect"
+    },
+    {
+        "url": "https://github.com/makinacorpus/spynner"
+    },
+    {
+        "url": "https://github.com/cobrateam/splinter"
+    },
+    {
+        "url": "https://github.com/tryolabs/requestium"
+    },
+    {
+        "url": "https://github.com/scrapinghub/splash"
+    },
+    {
+        "url": "https://github.com/miyakogi/pyppeteer"
+    },
+    {
+        "url": "https://github.com/microsoft/playwright-python"
+    },
+    {
+        "url": "https://github.com/seleniumbase/SeleniumBase"
+    },
+    {
+        "url": "https://github.com/omkarcloud/botasaurus"
+    },
+    {
+        "url": "https://github.com/apify/crawlee-python"
+    },
+    {
+        "url": "https://github.com/cgoldberg/xvfbwrapper"
+    },
+    {
+        "url": "https://github.com/madisonmay/Tomorrow"
+    },
+    {
+        "url": "https://github.com/kennethreitz/grequests"
+    },
+    {
+        "url": "https://github.com/coleifer/huey"
+    },
+    {
+        "url": "https://github.com/pricingassistant/mrq"
+    },
+    {
+        "url": "https://github.com/rq/rq"
+    },
+    {
+        "url": "https://github.com/rdegges/simpleq"
+    },
+    {
+        "url": "https://github.com/Yelp/python-gearman"
+    },
+    {
+        "url": "https://github.com/celery/kombu"
+    },
+    {
+        "url": "https://github.com/umihico/minigun-requests"
+    },
+    {
+        "url": "https://github.com/umihico/pythonista-chromeless"
+    },
+    {
+        "url": "https://github.com/gruns/furl"
+    },
+    {
+        "url": "https://github.com/codeinthehole/purl"
+    },
+    {
+        "url": "https://github.com/drkjam/netaddr"
+    },
+    {
+        "url": "https://github.com/coleifer/micawber"
+    },
+    {
+        "url": "https://github.com/john-kurkowski/tldextract"
+    },
+    {
+        "url": "https://github.com/rushter/find_domains"
+    },
+    {
+        "url": "https://github.com/codelucas/newspaper"
+    },
+    {
+        "url": "https://github.com/grangier/python-goose"
+    },
+    {
+        "url": "https://github.com/scrapy/scrapely"
+    },
+    {
+        "url": "https://github.com/adbar/htmldate"
+    },
+    {
+        "url": "https://github.com/michaelhelmick/lassie"
+    },
+    {
+        "url": "https://github.com/Alir3z4/html2text"
+    },
+    {
+        "url": "https://github.com/datalib/libextract"
+    },
+    {
+        "url": "https://github.com/buriy/python-readability"
+    },
+    {
+        "url": "https://github.com/miso-belica/sumy"
+    },
+    {
+        "url": "https://github.com/vinta/Haul"
+    },
+    {
+        "url": "https://github.com/WikiTeam/wikiteam"
+    },
+    {
+        "url": "https://github.com/wummel/linkchecker"
+    },
+    {
+        "url": "https://github.com/c4software/python-sitemap"
+    },
+    {
+        "url": "https://github.com/eliasdabbas/advertools"
+    },
+    {
+        "url": "https://github.com/s0md3v/Photon"
+    },
+    {
+        "url": "https://github.com/currentsapi/extractnet"
+    },
+    {
+        "url": "https://github.com/david96182/ninjemail"
+    },
+    {
+        "url": "https://github.com/crossbario/crossbar/"
+    },
+    {
+        "url": "https://github.com/Itseez/opencv"
+    },
+    {
+        "url": "https://github.com/sightmachine/SimpleCV"
+    },
+    {
+        "url": "https://github.com/luispedro/mahotas"
+    },
+    {
+        "url": "https://github.com/imWildCat/scylla"
+    },
+    {
+        "url": "https://github.com/constverum/Proxybroker"
+    },
+    {
+        "url": "https://github.com/shadowsocks/shadowsocks"
+    },
+    {
+        "url": "https://github.com/benoitc/tproxy"
+    },
+    {
+        "url": "https://github.com/joepie91/python-whois"
+    },
+    {
+        "url": "https://github.com/PiotrDabkowski/Js2Py"
+    },
+    {
+        "url": "https://github.com/sony/v8eval/"
+    },
+    {
+        "url": "https://github.com/lorien/captcha_solver"
+    },
+    {
+        "url": "https://github.com/ad-m/python-anticaptcha"
+    },
+    {
+        "url": "https://github.com/AndreiDrang/python3-anticaptcha"
+    },
+    {
+        "url": "https://github.com/sergey-scat/unicaps"
+    },
+    {
+        "url": "https://github.com/vinta/awesome-python"
+    },
+    {
+        "url": "https://github.com/kirang89/pycrumbs"
+    },
+    {
+        "url": "https://github.com/svaksha/pythonidae"
     }
 ]
