@@ -142,6 +142,14 @@ def process_issue(issue: dict, urls_data: list[dict], existing_urls: set[str]) -
     return True
 
 
+def set_output(name: str, value: str) -> None:
+    """Set a GitHub Actions output variable."""
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with open(github_output, "a") as f:
+            f.write(f"{name}={value}\n")
+
+
 def main() -> None:
     """Main entry point."""
     print(f"Processing issues for {GITHUB_REPOSITORY}")
@@ -162,8 +170,10 @@ def main() -> None:
     if added_count > 0:
         save_urls(urls_data)
         print(f"\nAdded {added_count} new URL(s) to urls.json")
+        set_output("urls_added", "true")
     else:
         print("\nNo new URLs added")
+        set_output("urls_added", "false")
 
 
 if __name__ == "__main__":

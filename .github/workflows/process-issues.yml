@@ -18,15 +18,24 @@ jobs:
         uses: astral-sh/setup-uv@v5
       
       - name: Process issues
+        id: process
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: uv run scripts/process_issues.py
       
       - name: Commit and push changes
+        if: steps.process.outputs.urls_added == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add urls.json
           git diff --quiet --staged || git commit -m "Add URLs from processed issues"
           git push
+      
+      - name: Trigger README update
+        if: steps.process.outputs.urls_added == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run update-readme.yml
