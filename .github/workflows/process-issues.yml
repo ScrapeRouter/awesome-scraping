@@ -1,7 +1,9 @@
 name: Process Add URL Issues
 
 on:
-  workflow_dispatch:  # Manual trigger only
+  schedule:
+    - cron: '0 * * * *'  # Run every hour
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   process-issues:
