@@ -452,5 +452,26 @@
     },
     {
         "url": "https://github.com/oxylabs/ai-crawler-py"
+    },
+    {
+        "url": "https://github.com/scrapy/scrapy"
+    },
+    {
+        "url": "https://github.com/projectdiscovery/httpx"
+    },
+    {
+        "url": "https://github.com/lexiforest/curl_cffi"
+    },
+    {
+        "url": "https://github.com/python-mechanize/mechanize"
+    },
+    {
+        "url": "https://github.com/hickford/MechanicalSoup"
+    },
+    {
+        "url": "https://github.com/jmcarp/robobrowser"
+    },
+    {
+        "url": "https://github.com/shazow/urllib3"
     }
 ]
