@@ -71,14 +71,14 @@ def generate_markdown_table(repos: list[dict]) -> str:
     repos = sorted(complete_repos, key=lambda x: x["stars"], reverse=True)
 
     lines = [
-        "| Repository | Description | Stars | Version | Updated |",
+        "| Repository | Description | ⭐ Stars | Version | Updated |",
         "|------------|-------------|-------|---------|---------|",
     ]
 
     for repo in repos:
         name_link = f"<a href=\"{repo['url']}\" target=\"_blank\">{repo['name']}</a>"
         description = repo["description"][:80] + "..." if len(repo["description"]) > 80 else repo["description"]
-        stars = f"⭐ {repo['stars']:,}"
+        stars = f"{repo['stars']:,}"
         lines.append(f"| {name_link} | {description} | {stars} | {repo['version']} | {repo['updated_at']} |")
 
     return "\n".join(lines)
