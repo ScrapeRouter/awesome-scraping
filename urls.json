@@ -1,11 +1,79 @@
 [
     {
-        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright"
+        "name": "patchright",
+        "full_name": "Kaliiiiiiiiii-Vinyzu/patchright",
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+        "description": "Undetected version of the Playwright testing and automation library.",
+        "stars": 2157,
+        "version": "v1.57.0",
+        "updated_at": "2025-12-29",
+        "topics": [
+            "automation",
+            "bot",
+            "bots",
+            "botting",
+            "browser",
+            "chrome",
+            "chromedriver",
+            "chromium",
+            "cloudflare",
+            "cloudflare-bypass",
+            "playwright",
+            "stealth",
+            "undetectable",
+            "undetected",
+            "web-automation",
+            "web-scraping",
+            "webautomation",
+            "webdriver",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/getmaxun/maxun"
+        "name": "maxun",
+        "full_name": "getmaxun/maxun",
+        "url": "https://github.com/getmaxun/maxun",
+        "description": "Turn websites into clean data pipelines & structured APIs in minutes!",
+        "stars": 14163,
+        "version": "v0.0.31",
+        "updated_at": "2026-01-04",
+        "topics": [
+            "agents",
+            "api",
+            "automation",
+            "browser",
+            "browser-automation",
+            "data-extraction",
+            "no-code",
+            "no-code-web-scraper",
+            "nocode",
+            "playwright",
+            "robotic-process-automation",
+            "rpa",
+            "scraper",
+            "self-hosted",
+            "web-automation",
+            "web-scraper",
+            "web-scraping",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/hyperbrowserai/HyperAgent"
+        "name": "HyperAgent",
+        "full_name": "hyperbrowserai/HyperAgent",
+        "url": "https://github.com/hyperbrowserai/HyperAgent",
+        "description": "AI Browser Automation",
+        "stars": 982,
+        "version": "v1.0.0",
+        "updated_at": "2025-11-19",
+        "topics": [
+            "agent",
+            "ai",
+            "automation",
+            "chrome",
+            "llm",
+            "playwright",
+            "web"
+        ]
     }
 ]

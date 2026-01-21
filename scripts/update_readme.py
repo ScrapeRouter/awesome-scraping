@@ -4,7 +4,9 @@
 import json
 import os
 import re
+import shutil
 from datetime import datetime
+from pathlib import Path
 
 import requests
 
@@ -53,16 +55,20 @@ def fetch_repo_data(owner: str, repo: str, token: str | None = None) -> dict | N
         "stars": data.get("stargazers_count", 0),
         "version": version,
         "updated_at": updated_at,
+        "topics": data.get("topics", []),
     }
 
 
 def generate_markdown_table(repos: list[dict]) -> str:
     """Generate a markdown table from repository data."""
-    if not repos:
+    # Filter out entries without full data (only have url)
+    complete_repos = [r for r in repos if "stars" in r]
+    
+    if not complete_repos:
         return "_No repositories found._"
 
     # Sort by stars descending
-    repos = sorted(repos, key=lambda x: x["stars"], reverse=True)
+    repos = sorted(complete_repos, key=lambda x: x["stars"], reverse=True)
 
     lines = [
         "| Repository | Description | Stars | Version | Updated |",
@@ -91,6 +97,33 @@ def update_readme(table: str) -> None:
     print(f"Updated {readme_path}")
 
 
+def backup_urls_json() -> None:
+    """Move current urls.json to history directory with timestamp suffix."""
+    urls_path = Path("urls.json")
+    history_dir = Path("history")
+    
+    if not urls_path.exists():
+        print("No urls.json found to backup")
+        return
+    
+    history_dir.mkdir(exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_path = history_dir / f"urls_{timestamp}.json"
+    
+    shutil.move(urls_path, backup_path)
+    print(f"Moved urls.json to {backup_path}")
+
+
+def update_urls_json(repos: list[dict]) -> None:
+    """Write updated repository data to urls.json."""
+    urls_path = Path("urls.json")
+    
+    with open(urls_path, "w") as f:
+        json.dump(repos, f, indent=4)
+    
+    print(f"Created new {urls_path} with {len(repos)} repositories")
+
+
 def main() -> None:
     """Main function to orchestrate the scraping and README update."""
     token = os.environ.get("GITHUB_TOKEN")
@@ -98,6 +131,9 @@ def main() -> None:
     # Load URLs from urls.json
     with open("urls.json") as f:
         urls_data = json.load(f)
+
+    # Backup current urls.json to history
+    backup_urls_json()
 
     repos = []
     for item in urls_data:
@@ -112,6 +148,12 @@ def main() -> None:
         data = fetch_repo_data(owner, repo, token)
         if data:
             repos.append(data)
+        else:
+            # Keep original entry if fetch failed
+            repos.append(item)
+
+    # Write updated urls.json with fetched data
+    update_urls_json(repos)
 
     # Generate table and update README
     table = generate_markdown_table(repos)
