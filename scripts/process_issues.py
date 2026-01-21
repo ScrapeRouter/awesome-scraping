@@ -29,6 +29,9 @@ GITHUB_URL_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+# Only process issues from this user
+ALLOWED_USER = "pawel-krzych"
+
 
 def load_urls() -> list[dict]:
     """Load existing URLs from urls.json."""
@@ -105,6 +108,12 @@ def process_issue(issue: dict, urls_data: list[dict], existing_urls: set[str]) -
     Returns True if a new URL was added, False otherwise.
     """
     issue_number = issue["number"]
+    issue_author = issue.get("user", {}).get("login", "")
+    
+    if issue_author != ALLOWED_USER:
+        # Not from allowed user, skip
+        return False
+    
     github_url = extract_github_url(issue)
     
     if not github_url:
