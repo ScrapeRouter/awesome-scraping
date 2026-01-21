@@ -11,7 +11,9 @@ from utils import (
     backup_urls_json,
     extract_repo_info,
     fetch_repo_data,
+    filter_blacklisted_urls,
     generate_markdown_table,
+    load_blacklist,
     load_urls_json,
     update_readme,
     update_urls_json,
@@ -24,6 +26,10 @@ def main() -> None:
 
     # Load URLs from urls.json
     urls_data = load_urls_json()
+
+    # Load blacklist and filter out blacklisted URLs
+    blacklist = load_blacklist()
+    urls_data = filter_blacklisted_urls(urls_data, blacklist)
 
     # Backup current urls.json to history
     backup_urls_json()

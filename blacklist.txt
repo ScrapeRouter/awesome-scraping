@@ -1,0 +1,11 @@
+https://github.com/vinta/awesome-python
+https://github.com/opencv/opencv
+https://github.com/sorrycc/awesome-javascript
+https://github.com/immutable-js/immutable-js
+https://github.com/fastai/fastai
+https://github.com/pydantic/pydantic
+https://github.com/validatorjs/validator.js
+https://github.com/rq/rq
+https://github.com/gka/chroma.js
+https://github.com/py-pdf/pypdf
+https://github.com/Qix-/color

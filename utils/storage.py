@@ -58,3 +58,58 @@ def update_urls_json(repos: list[dict], urls_path: str | Path = "urls.json") -> 
         json.dump(repos, f, indent=4)
 
     print(f"Created new {urls_path} with {len(repos)} repositories")
+
+
+def load_blacklist(blacklist_path: str | Path = "blacklist.txt") -> set[str]:
+    """Load blacklisted URLs from blacklist.txt.
+    
+    Args:
+        blacklist_path: Path to blacklist.txt file
+        
+    Returns:
+        Set of blacklisted URLs (normalized)
+    """
+    blacklist_path = Path(blacklist_path)
+    
+    if not blacklist_path.exists():
+        return set()
+    
+    blacklist = set()
+    with open(blacklist_path) as f:
+        for line in f:
+            url = line.strip()
+            if url and not url.startswith("#"):
+                # Normalize URL by removing trailing slashes
+                blacklist.add(url.rstrip("/"))
+    
+    return blacklist
+
+
+def filter_blacklisted_urls(urls_data: list[dict], blacklist: set[str]) -> list[dict]:
+    """Filter out blacklisted URLs from the urls data.
+    
+    Args:
+        urls_data: List of repository dictionaries
+        blacklist: Set of blacklisted URLs
+        
+    Returns:
+        Filtered list with blacklisted URLs removed
+    """
+    if not blacklist:
+        return urls_data
+    
+    filtered = []
+    removed_count = 0
+    
+    for item in urls_data:
+        url = item.get("url", "").rstrip("/")
+        if url in blacklist:
+            print(f"Removing blacklisted URL: {url}")
+            removed_count += 1
+        else:
+            filtered.append(item)
+    
+    if removed_count > 0:
+        print(f"Removed {removed_count} blacklisted URL(s) from urls.json")
+    
+    return filtered
