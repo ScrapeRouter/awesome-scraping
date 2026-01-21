@@ -25,7 +25,7 @@ def _format_repo_row(repo: dict) -> str:
 def _build_table(repos: list[dict]) -> str:
     """Build a markdown table from a list of repos (already sorted)."""
     lines = [
-        "| Repository | Description | ⭐ Stars | Updated |",
+        "| Repository | Description | ⭐Stars | Updated |",
         "|------------|-------------|------:|---------|",
     ]
     for repo in repos:
