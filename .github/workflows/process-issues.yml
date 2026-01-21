@@ -1,0 +1,32 @@
+name: Process Add URL Issues
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  process-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      
+      - name: Process issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: uv run scripts/process_issues.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add urls.json
+          git diff --quiet --staged || git commit -m "Add URLs from processed issues"
+          git push
