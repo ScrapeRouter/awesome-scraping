@@ -9,3 +9,7 @@ https://github.com/rq/rq
 https://github.com/gka/chroma.js
 https://github.com/py-pdf/pypdf
 https://github.com/Qix-/color
+https://github.com/lodash/lodash
+https://github.com/moment/moment
+https://github.com/SheetJS/sheetjs
+https://github.com/fxsjy/jieba
