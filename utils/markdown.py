@@ -11,20 +11,22 @@ def _format_repo_row(repo: dict) -> str:
     name = name.replace(' | ', ' ')
     name = name.replace('|', '')
     name_link = f"<a href=\"{repo['url']}\" target=\"_blank\">{name}</a>"
+    version = repo['version']
+    repo_cell = f"{name_link}<br><sub>{version}</sub>" if version else name_link
     full_description = repo["description"]
     full_description = full_description.replace(' | ', ' ')
     full_description = full_description.replace('|', '')
     description = full_description[:80] + "..." if len(full_description) > 80 else full_description
     description_with_title = f"<span title=\"{full_description}\">{description}</span>"
     stars = f"{repo['stars']:,}"
-    return f"| {name_link} | {description_with_title} | {stars} | {repo['version']} | {repo['updated_at']} |"
+    return f"| {repo_cell} | {description_with_title} | {stars} | {repo['updated_at']} |"
 
 
 def _build_table(repos: list[dict]) -> str:
     """Build a markdown table from a list of repos (already sorted)."""
     lines = [
-        "| Repository | Description | ⭐ Stars | Version | Updated |",
-        "|------------|-------------|------:|--------:|---------|",
+        "| Repository | Description | ⭐ Stars | Updated |",
+        "|------------|-------------|------:|---------|",
     ]
     for repo in repos:
         lines.append(_format_repo_row(repo))
