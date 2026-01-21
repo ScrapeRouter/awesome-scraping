@@ -70,7 +70,7 @@ def generate_markdown_table(repos: list[dict]) -> str:
     ]
 
     for repo in repos:
-        name_link = f"[{repo['name']}]({repo['url']})"
+        name_link = f"<a href=\"{repo['url']}\" target=\"_blank\">{repo['name']}</a>"
         description = repo["description"][:80] + "..." if len(repo["description"]) > 80 else repo["description"]
         stars = f"⭐ {repo['stars']:,}"
         lines.append(f"| {name_link} | {description} | {stars} | {repo['version']} | {repo['updated_at']} |")
