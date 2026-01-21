@@ -4,7 +4,7 @@
         "full_name": "D4Vinci/Scrapling",
         "url": "https://github.com/D4Vinci/Scrapling",
         "description": "\ud83d\udd77\ufe0f An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
-        "stars": 8821,
+        "stars": 8822,
         "version": "v0.3.14",
         "updated_at": "2026-01-03",
         "topics": [
@@ -185,7 +185,7 @@
         "full_name": "ScrapeGraphAI/Scrapegraph-ai",
         "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
         "description": "Python scraper based on AI",
-        "stars": 22338,
+        "stars": 22339,
         "version": "v1.72.0",
         "updated_at": "2026-01-20",
         "topics": [
@@ -293,7 +293,7 @@
         "full_name": "firecrawl/firecrawl",
         "url": "https://github.com/firecrawl/firecrawl",
         "description": "\ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
-        "stars": 76397,
+        "stars": 76398,
         "version": "v2.7.0",
         "updated_at": "2025-12-05",
         "topics": [
@@ -1285,37 +1285,6 @@
         "topics": []
     },
     {
-        "name": "validator.js",
-        "full_name": "validatorjs/validator.js",
-        "url": "https://github.com/validatorjs/validator.js",
-        "description": "String validation",
-        "stars": 23740,
-        "version": "13.15.26",
-        "updated_at": "2025-12-18",
-        "topics": [
-            "hacktoberfest",
-            "input",
-            "javascript",
-            "node",
-            "sanitization",
-            "sanitize",
-            "validate",
-            "validation",
-            "validations",
-            "validator"
-        ]
-    },
-    {
-        "name": "moment",
-        "full_name": "moment/moment",
-        "url": "https://github.com/moment/moment",
-        "description": "Parse, validate, manipulate, and display dates in javascript.",
-        "stars": 48090,
-        "version": "-",
-        "updated_at": "2024-02-18",
-        "topics": []
-    },
-    {
         "name": "moment-timezone",
         "full_name": "moment/moment-timezone",
         "url": "https://github.com/moment/moment-timezone",
@@ -1377,16 +1346,6 @@
         "topics": []
     },
     {
-        "name": "color",
-        "full_name": "Qix-/color",
-        "url": "https://github.com/Qix-/color",
-        "description": ":rainbow: Javascript color conversion and manipulation library",
-        "stars": 4922,
-        "version": "5.0.3",
-        "updated_at": "2025-11-14",
-        "topics": []
-    },
-    {
         "name": "TinyColor",
         "full_name": "bgrins/TinyColor",
         "url": "https://github.com/bgrins/TinyColor",
@@ -1439,37 +1398,6 @@
         "version": "-",
         "updated_at": "2021-05-05",
         "topics": []
-    },
-    {
-        "name": "sheetjs",
-        "full_name": "SheetJS/sheetjs",
-        "url": "https://github.com/SheetJS/sheetjs",
-        "description": "\ud83d\udcd7 SheetJS Spreadsheet Data Toolkit -- New home https://git.sheetjs.com/SheetJS/sheetjs",
-        "stars": 36141,
-        "version": "-",
-        "updated_at": "2024-02-01",
-        "topics": [
-            "angular",
-            "bun",
-            "csv",
-            "data",
-            "database",
-            "deno",
-            "excel",
-            "grid",
-            "html",
-            "html5",
-            "ios",
-            "javascript",
-            "json",
-            "nodejs",
-            "react",
-            "spreadsheet",
-            "table",
-            "vue",
-            "xlsx",
-            "xml"
-        ]
     },
     {
         "name": "BabyParse",
@@ -1980,7 +1908,7 @@
         "full_name": "h2non/toxy",
         "url": "https://github.com/h2non/toxy",
         "description": "Hackable HTTP proxy for resiliency testing and simulated network conditions",
-        "stars": 2722,
+        "stars": 2721,
         "version": "-",
         "updated_at": "2022-02-17",
         "topics": [
@@ -2011,31 +1939,6 @@
             "proxy-server",
             "proxychains",
             "socks5"
-        ]
-    },
-    {
-        "name": "immutable-js",
-        "full_name": "immutable-js/immutable-js",
-        "url": "https://github.com/immutable-js/immutable-js",
-        "description": "Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
-        "stars": 33096,
-        "version": "v5.1.4",
-        "updated_at": "2025-10-13",
-        "topics": []
-    },
-    {
-        "name": "lodash",
-        "full_name": "lodash/lodash",
-        "url": "https://github.com/lodash/lodash",
-        "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
-        "stars": 61591,
-        "version": "4.0.0",
-        "updated_at": "2016-01-12",
-        "topics": [
-            "javascript",
-            "lodash",
-            "modules",
-            "utilities"
         ]
     },
     {
@@ -2491,7 +2394,7 @@
         "full_name": "unclecode/crawl4ai",
         "url": "https://github.com/unclecode/crawl4ai",
         "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-        "stars": 58826,
+        "stars": 58827,
         "version": "v0.8.0",
         "updated_at": "2026-01-16",
         "topics": []
@@ -3353,25 +3256,6 @@
         "topics": []
     },
     {
-        "name": "pypdf",
-        "full_name": "py-pdf/pypdf",
-        "url": "https://github.com/py-pdf/pypdf",
-        "description": "A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files",
-        "stars": 9756,
-        "version": "6.6.0",
-        "updated_at": "2026-01-09",
-        "topics": [
-            "help-wanted",
-            "pdf",
-            "pdf-documents",
-            "pdf-manipulation",
-            "pdf-parser",
-            "pdf-parsing",
-            "pypdf2",
-            "python"
-        ]
-    },
-    {
         "name": "markdown",
         "full_name": "Python-Markdown/markdown",
         "url": "https://github.com/Python-Markdown/markdown",
@@ -3686,16 +3570,6 @@
             "web-mining",
             "wordnet"
         ]
-    },
-    {
-        "name": "jieba",
-        "full_name": "fxsjy/jieba",
-        "url": "https://github.com/fxsjy/jieba",
-        "description": "\u7ed3\u5df4\u4e2d\u6587\u5206\u8bcd",
-        "stars": 34713,
-        "version": "v0.42.1",
-        "updated_at": "2020-01-20",
-        "topics": []
     },
     {
         "name": "snownlp",
@@ -4492,22 +4366,6 @@
             "server",
             "wamp",
             "websocket"
-        ]
-    },
-    {
-        "name": "opencv",
-        "full_name": "opencv/opencv",
-        "url": "https://github.com/opencv/opencv",
-        "description": "Open Source Computer Vision Library",
-        "stars": 85821,
-        "version": "4.13.0",
-        "updated_at": "2025-12-31",
-        "topics": [
-            "c-plus-plus",
-            "computer-vision",
-            "deep-learning",
-            "image-processing",
-            "opencv"
         ]
     },
     {
