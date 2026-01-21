@@ -5,7 +5,7 @@ A curated list of awesome scraping tools and libraries. Human-selected repositor
 ## Repositories
 
 | Repository | Description | ⭐ Stars | Version | Updated |
-|------------|-------------|-------|---------|---------|
+|------------|-------------|------:|--------:|---------|
 | <a href="https://github.com/firecrawl/firecrawl" target="_blank">firecrawl</a> | <span title="🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data">🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or stru...</span> | 76,396 | v2.7.0 | 2025-12-05 |
 | <a href="https://github.com/ScrapeGraphAI/Scrapegraph-ai" target="_blank">Scrapegraph-ai</a> | <span title="Python scraper based on AI">Python scraper based on AI</span> | 22,337 | v1.72.0 | 2026-01-20 |
 | <a href="https://github.com/getmaxun/maxun" target="_blank">maxun</a> | <span title="Turn websites into clean data pipelines & structured APIs in minutes!">Turn websites into clean data pipelines & structured APIs in minutes!</span> | 14,162 | v0.0.31 | 2026-01-04 |
@@ -22,7 +22,7 @@ A curated list of awesome scraping tools and libraries. Human-selected repositor
 _Repos that haven't been updated in the last 6 months, sorted by stars._
 
 | Repository | Description | ⭐ Stars | Version | Updated |
-|------------|-------------|-------|---------|---------|
+|------------|-------------|------:|--------:|---------|
 | <a href="https://github.com/alirezamika/autoscraper" target="_blank">autoscraper</a> | <span title="A Smart, Automatic, Fast and Lightweight Web Scraper for Python">A Smart, Automatic, Fast and Lightweight Web Scraper for Python</span> | 7,074 | v1.1.14 | 2022-07-17 |
 | <a href="https://github.com/niespodd/browser-fingerprinting" target="_blank">browser-fingerprinting</a> | <span title="Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?">Analysis of Bot Protection systems with available countermeasures 🚿. How to defe...</span> | 4,942 | - | 2024-07-17 |
 | <a href="https://github.com/daijro/camoufox" target="_blank">camoufox</a> | <span title="🦊 Anti-detect browser">🦊 Anti-detect browser</span> | 4,850 | v135.0.1-beta.24 | 2025-03-15 |
