@@ -58,6 +58,18 @@ def fetch_repo_data(owner: str, repo: str, token: str | None = None) -> dict | N
             dt = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
             updated_at = dt.strftime("%Y-%m-%d")
 
+    # Fallback: fetch latest commit date if no release updated_at
+    if updated_at == "-":
+        default_branch = data.get("default_branch", "main")
+        commits_url = f"https://api.github.com/repos/{owner}/{repo}/commits/{default_branch}"
+        commit_response = requests.get(commits_url, headers=headers, timeout=30)
+        if commit_response.status_code == 200:
+            commit_data = commit_response.json()
+            commit_date = commit_data.get("commit", {}).get("committer", {}).get("date", "")
+            if commit_date:
+                dt = datetime.fromisoformat(commit_date.replace("Z", "+00:00"))
+                updated_at = dt.strftime("%Y-%m-%d")
+
     return {
         "name": data.get("name", repo),
         "full_name": data.get("full_name", f"{owner}/{repo}"),
