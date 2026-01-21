@@ -425,5 +425,32 @@
             "openai-api",
             "webscraping"
         ]
+    },
+    {
+        "url": "https://github.com/pycurl/pycurl"
+    },
+    {
+        "url": "https://github.com/kennethreitz/requests"
+    },
+    {
+        "url": "https://github.com/gosom/google-maps-scraper"
+    },
+    {
+        "url": "https://github.com/ScrapeGraphAI/scrapecraft"
+    },
+    {
+        "url": "https://github.com/BrowserCash/teracrawl"
+    },
+    {
+        "url": "https://github.com/kalil0321/reverse-api-engineer"
+    },
+    {
+        "url": "https://github.com/oxylabs/oxylabs-ai-studio-py"
+    },
+    {
+        "url": "https://github.com/any4ai/AnyCrawl"
+    },
+    {
+        "url": "https://github.com/oxylabs/ai-crawler-py"
     }
 ]
