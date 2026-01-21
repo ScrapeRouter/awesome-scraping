@@ -48,9 +48,9 @@ def main() -> None:
     # Write updated urls.json with fetched data
     update_urls_json(repos)
 
-    # Generate table and update README
-    table = generate_markdown_table(repos)
-    update_readme(table)
+    # Generate tables and update README
+    tables = generate_markdown_table(repos)
+    update_readme(tables)
 
 
 if __name__ == "__main__":

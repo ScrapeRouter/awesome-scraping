@@ -1,30 +1,215 @@
 [
     {
-        "url": "https://github.com/D4Vinci/Scrapling"
+        "name": "Scrapling",
+        "full_name": "D4Vinci/Scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "\ud83d\udd77\ufe0f An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
+        "stars": 8821,
+        "version": "v0.3.14",
+        "updated_at": "2026-01-03",
+        "topics": [
+            "ai",
+            "ai-scraping",
+            "automation",
+            "crawler",
+            "crawling",
+            "crawling-python",
+            "data",
+            "data-extraction",
+            "mcp",
+            "mcp-server",
+            "playwright",
+            "python",
+            "scraping",
+            "selectors",
+            "stealth",
+            "web-scraper",
+            "web-scraping",
+            "web-scraping-python",
+            "webscraping",
+            "xpath"
+        ]
     },
     {
-        "url": "https://github.com/alirezamika/autoscraper"
+        "name": "autoscraper",
+        "full_name": "alirezamika/autoscraper",
+        "url": "https://github.com/alirezamika/autoscraper",
+        "description": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python",
+        "stars": 7074,
+        "version": "v1.1.14",
+        "updated_at": "2022-07-17",
+        "topics": [
+            "ai",
+            "artificial-intelligence",
+            "automation",
+            "crawler",
+            "machine-learning",
+            "python",
+            "scrape",
+            "scraper",
+            "scraping",
+            "web-scraping",
+            "webautomation",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/niespodd/browser-fingerprinting"
+        "name": "browser-fingerprinting",
+        "full_name": "niespodd/browser-fingerprinting",
+        "url": "https://github.com/niespodd/browser-fingerprinting",
+        "description": "Analysis of Bot Protection systems with available countermeasures \ud83d\udebf. How to defeat anti-bot system \ud83d\udc7b and get around browser fingerprinting scripts \ud83d\udd75\ufe0f\u200d\u2642\ufe0f when scraping the web?",
+        "stars": 4942,
+        "version": "-",
+        "updated_at": "2024-07-17",
+        "topics": [
+            "abck",
+            "arkose",
+            "automation",
+            "aws-waf-token",
+            "bot",
+            "bot-detection",
+            "browser-fingerprinting",
+            "chromium-browser",
+            "crawler",
+            "detection",
+            "fingerprinting",
+            "perimeterx",
+            "recaptcha",
+            "reese84",
+            "scraper",
+            "stealth",
+            "webscraping",
+            "x-kpsdk-ct"
+        ]
     },
     {
-        "url": "https://github.com/daijro/camoufox"
+        "name": "camoufox",
+        "full_name": "daijro/camoufox",
+        "url": "https://github.com/daijro/camoufox",
+        "description": "\ud83e\udd8a Anti-detect browser",
+        "stars": 4850,
+        "version": "v135.0.1-beta.24",
+        "updated_at": "2025-03-15",
+        "topics": [
+            "antidetect",
+            "antidetect-browser",
+            "fingerprint",
+            "firefox",
+            "networking",
+            "playwright",
+            "scraping",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/jaypyles/Scraperr"
+        "name": "Scraperr",
+        "full_name": "jaypyles/Scraperr",
+        "url": "https://github.com/jaypyles/Scraperr",
+        "description": "Self-hosted webscraper.",
+        "stars": 4817,
+        "version": "v1.1.6",
+        "updated_at": "2025-07-13",
+        "topics": [
+            "docker",
+            "helm",
+            "kubernetes",
+            "opensource",
+            "playwright",
+            "python",
+            "scraping",
+            "self-hosted",
+            "web-scraper",
+            "web-scrapers",
+            "web-scraping",
+            "webscraper",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/itsOwen/CyberScraper-2077"
+        "name": "CyberScraper-2077",
+        "full_name": "itsOwen/CyberScraper-2077",
+        "url": "https://github.com/itsOwen/CyberScraper-2077",
+        "description": "A Powerful web scraper powered by LLM | OpenAI, Gemini & Ollama",
+        "stars": 2574,
+        "version": "-",
+        "updated_at": "2026-01-20",
+        "topics": [
+            "ai-scraping",
+            "gemini-api",
+            "llm",
+            "llm-scraper",
+            "openai",
+            "scraper",
+            "web-scraper",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/scrapoxy/scrapoxy"
+        "name": "scrapoxy",
+        "full_name": "scrapoxy/scrapoxy",
+        "url": "https://github.com/scrapoxy/scrapoxy",
+        "description": "Scrapoxy is a super proxies manager that orchestrates all your proxies into one place, rather than spreading management across multiple scrapers. It manages IP rotation and fingerprinting, and smartly routes traffic to avoid bans.",
+        "stars": 2427,
+        "version": "4.22.1",
+        "updated_at": "2025-06-06",
+        "topics": [
+            "antibot",
+            "blacklisting",
+            "proxies",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/requests-cache/requests-cache"
+        "name": "requests-cache",
+        "full_name": "requests-cache/requests-cache",
+        "url": "https://github.com/requests-cache/requests-cache",
+        "description": "Persistent HTTP cache for python requests",
+        "stars": 1475,
+        "version": "v1.2.0",
+        "updated_at": "2024-02-17",
+        "topics": [
+            "cache",
+            "dynamodb",
+            "http",
+            "mongodb",
+            "performance",
+            "redis",
+            "requests",
+            "sqlite",
+            "web",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
+        "name": "Scrapegraph-ai",
+        "full_name": "ScrapeGraphAI/Scrapegraph-ai",
+        "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+        "description": "Python scraper based on AI",
+        "stars": 22337,
+        "version": "v1.72.0",
+        "updated_at": "2026-01-20",
+        "topics": [
+            "ai-crawler",
+            "ai-scraping",
+            "ai-search",
+            "crawler",
+            "data-extraction",
+            "firecrawl-alternative",
+            "large-language-model",
+            "llm",
+            "markdown",
+            "rag",
+            "scraping",
+            "scraping-python",
+            "web-crawler",
+            "web-crawlers",
+            "web-data",
+            "web-data-extraction",
+            "web-scraper",
+            "web-scraping",
+            "web-search",
+            "webscraping"
+        ]
     },
     {
         "name": "patchright",
@@ -61,7 +246,7 @@
         "full_name": "getmaxun/maxun",
         "url": "https://github.com/getmaxun/maxun",
         "description": "Turn websites into clean data pipelines & structured APIs in minutes!",
-        "stars": 14163,
+        "stars": 14162,
         "version": "v0.0.31",
         "updated_at": "2026-01-04",
         "topics": [
@@ -104,21 +289,141 @@
         ]
     },
     {
-        "url": "https://github.com/firecrawl/firecrawl"
+        "name": "firecrawl",
+        "full_name": "firecrawl/firecrawl",
+        "url": "https://github.com/firecrawl/firecrawl",
+        "description": "\ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
+        "stars": 76396,
+        "version": "v2.7.0",
+        "updated_at": "2025-12-05",
+        "topics": [
+            "ai",
+            "ai-agents",
+            "ai-crawler",
+            "ai-scraping",
+            "ai-search",
+            "crawler",
+            "data-extraction",
+            "html-to-markdown",
+            "llm",
+            "markdown",
+            "scraper",
+            "scraping",
+            "web-crawler",
+            "web-data",
+            "web-data-extraction",
+            "web-scraper",
+            "web-scraping",
+            "web-search",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/cdpdriver/zendriver"
+        "name": "zendriver",
+        "full_name": "cdpdriver/zendriver",
+        "url": "https://github.com/cdpdriver/zendriver",
+        "description": "A blazing fast, async-first, undetectable webscraping/web automation framework based on ultrafunkamsterdam/nodriver. Now with Docker support!",
+        "stars": 1059,
+        "version": "v0.15.2",
+        "updated_at": "2025-11-29",
+        "topics": [
+            "anti-bot",
+            "async",
+            "bot-detection",
+            "browser",
+            "browser-automation",
+            "captcha",
+            "chrome",
+            "chrome-devtools-protocol",
+            "chromedriver",
+            "cloudflare",
+            "cloudflare-bypass",
+            "python",
+            "selenium",
+            "webdriver",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python"
+        "name": "patchright-python",
+        "full_name": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python",
+        "description": "Undetected Python version of the Playwright testing and automation library. ",
+        "stars": 1073,
+        "version": "v1.57.0",
+        "updated_at": "2025-12-30",
+        "topics": [
+            "automation",
+            "bot",
+            "bots",
+            "botting",
+            "browser",
+            "chrome",
+            "chromedriver",
+            "chromium",
+            "cloudflare",
+            "cloudflare-by",
+            "playwright",
+            "stealth",
+            "undetectable",
+            "undetected",
+            "web-automation",
+            "web-scraping",
+            "webautomation",
+            "webdriver",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/holgerd77/django-dynamic-scraper"
+        "name": "django-dynamic-scraper",
+        "full_name": "holgerd77/django-dynamic-scraper",
+        "url": "https://github.com/holgerd77/django-dynamic-scraper",
+        "description": "Creating Scrapy scrapers via the Django admin interface",
+        "stars": 1160,
+        "version": "v0.13.2",
+        "updated_at": "2019-02-15",
+        "topics": [
+            "django",
+            "python",
+            "scraper",
+            "scraping",
+            "scrapy",
+            "spider",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/raznem/parsera"
+        "name": "parsera",
+        "full_name": "raznem/parsera",
+        "url": "https://github.com/raznem/parsera",
+        "description": "Lightweight library for scraping web-sites with LLMs",
+        "stars": 1256,
+        "version": "v0.2.6",
+        "updated_at": "2025-10-08",
+        "topics": [
+            "ai",
+            "ai-scraping",
+            "data-extraction",
+            "llm",
+            "opensource",
+            "playwright",
+            "python",
+            "scraping",
+            "webscraping"
+        ]
     },
     {
-        "url": "https://github.com/jamesturk/scrapeghost"
+        "name": "scrapeghost",
+        "full_name": "jamesturk/scrapeghost",
+        "url": "https://github.com/jamesturk/scrapeghost",
+        "description": "\ud83d\udc7b Experimental library for scraping websites using OpenAI's GPT API.",
+        "stars": 1445,
+        "version": "0.6.0",
+        "updated_at": "2023-11-25",
+        "topics": [
+            "gpt",
+            "openai-api",
+            "webscraping"
+        ]
     }
 ]
