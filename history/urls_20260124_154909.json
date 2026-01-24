@@ -87,7 +87,7 @@
         "full_name": "daijro/camoufox",
         "url": "https://github.com/daijro/camoufox",
         "description": "\ud83e\udd8a Anti-detect browser",
-        "stars": 4896,
+        "stars": 4897,
         "version": "v135.0.1-beta.24",
         "updated_at": "2025-03-15",
         "topics": [
@@ -293,7 +293,7 @@
         "full_name": "firecrawl/firecrawl",
         "url": "https://github.com/firecrawl/firecrawl",
         "description": "\ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
-        "stars": 77084,
+        "stars": 77083,
         "version": "v2.7.0",
         "updated_at": "2025-12-05",
         "topics": [
@@ -974,7 +974,7 @@
         "full_name": "ariya/phantomjs",
         "url": "https://github.com/ariya/phantomjs",
         "description": "Scriptable Headless Browser",
-        "stars": 29494,
+        "stars": 29493,
         "version": "-",
         "updated_at": "2020-07-13",
         "topics": [
@@ -1047,7 +1047,7 @@
         "full_name": "puppeteer/puppeteer",
         "url": "https://github.com/puppeteer/puppeteer",
         "description": "JavaScript API for Chrome and Firefox",
-        "stars": 93382,
+        "stars": 93383,
         "version": "puppeteer-core-v24.36.0",
         "updated_at": "2026-01-22",
         "topics": [
@@ -1170,7 +1170,7 @@
         "full_name": "fb55/htmlparser2",
         "url": "https://github.com/fb55/htmlparser2",
         "description": "The fast & forgiving HTML and XML parser",
-        "stars": 4792,
+        "stars": 4791,
         "version": "v10.1.0",
         "updated_at": "2026-01-21",
         "topics": [
@@ -1198,7 +1198,7 @@
         "full_name": "cheeriojs/cheerio",
         "url": "https://github.com/cheeriojs/cheerio",
         "description": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML.",
-        "stars": 30039,
+        "stars": 30038,
         "version": "v1.2.0",
         "updated_at": "2026-01-23",
         "topics": [
@@ -2276,7 +2276,7 @@
         "full_name": "unclecode/crawl4ai",
         "url": "https://github.com/unclecode/crawl4ai",
         "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-        "stars": 58949,
+        "stars": 58948,
         "version": "v0.8.0",
         "updated_at": "2026-01-16",
         "topics": []
