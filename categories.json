@@ -86,6 +86,18 @@
         "categorized_at": "2026-01-24T15:45:24.239990+00:00"
       },
       {
+        "name": "headless-chrome-crawler",
+        "full_name": "yujiosaka/headless-chrome-crawler",
+        "url": "https://github.com/yujiosaka/headless-chrome-crawler",
+        "description": "Distributed crawler powered by Headless Chrome",
+        "stars": 5719,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:51.608249+00:00"
+      },
+      {
         "name": "trafilatura",
         "full_name": "adbar/trafilatura",
         "url": "https://github.com/adbar/trafilatura",
@@ -109,6 +121,18 @@
           "browser_automation"
         ],
         "categorized_at": "2026-01-24T15:38:29.791251+00:00"
+      },
+      {
+        "name": "robobrowser",
+        "full_name": "jmcarp/robobrowser",
+        "url": "https://github.com/jmcarp/robobrowser",
+        "description": "-",
+        "stars": 3704,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:48:44.919019+00:00"
       },
       {
         "name": "google-maps-scraper",
@@ -245,6 +269,28 @@
     "best_for": "High-interactivity sites, SPAs (Single Page Apps), and bypassing simple bot detection.",
     "repos": [
       {
+        "name": "puppeteer",
+        "full_name": "puppeteer/puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer",
+        "description": "JavaScript API for Chrome and Firefox",
+        "stars": 93382,
+        "categories": [
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:50.345674+00:00"
+      },
+      {
+        "name": "playwright",
+        "full_name": "microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright",
+        "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+        "stars": 81614,
+        "categories": [
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:46:08.247968+00:00"
+      },
+      {
         "name": "phantomjs",
         "full_name": "ariya/phantomjs",
         "url": "https://github.com/ariya/phantomjs",
@@ -317,6 +363,18 @@
         "categorized_at": "2026-01-24T15:45:35.302437+00:00"
       },
       {
+        "name": "headless-chrome-crawler",
+        "full_name": "yujiosaka/headless-chrome-crawler",
+        "url": "https://github.com/yujiosaka/headless-chrome-crawler",
+        "description": "Distributed crawler powered by Headless Chrome",
+        "stars": 5719,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:51.608249+00:00"
+      },
+      {
         "name": "zombie",
         "full_name": "assaf/zombie",
         "url": "https://github.com/assaf/zombie",
@@ -338,6 +396,19 @@
           "evasion_fingerprinting"
         ],
         "categorized_at": "2026-01-24T15:38:27.921783+00:00"
+      },
+      {
+        "name": "MechanicalSoup",
+        "full_name": "MechanicalSoup/MechanicalSoup",
+        "url": "https://github.com/MechanicalSoup/MechanicalSoup",
+        "description": "A Python library for automating interaction with websites.",
+        "stars": 4841,
+        "categories": [
+          "browser_automation",
+          "http_clients",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:48:48.025663+00:00"
       },
       {
         "name": "Scraperr",
@@ -509,6 +580,17 @@
           "data_cleaning"
         ],
         "categorized_at": "2026-01-24T15:39:33.509831+00:00"
+      },
+      {
+        "name": "wendigo",
+        "full_name": "angrykoala/wendigo",
+        "url": "https://github.com/angrykoala/wendigo",
+        "description": "A proper monster for front-end automated testing",
+        "stars": 152,
+        "categories": [
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:46:06.409471+00:00"
       },
       {
         "name": "webparsy",
@@ -776,6 +858,19 @@
         "categorized_at": "2026-01-24T15:40:05.570844+00:00"
       },
       {
+        "name": "MechanicalSoup",
+        "full_name": "MechanicalSoup/MechanicalSoup",
+        "url": "https://github.com/MechanicalSoup/MechanicalSoup",
+        "description": "A Python library for automating interaction with websites.",
+        "stars": 4841,
+        "categories": [
+          "browser_automation",
+          "http_clients",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:48:48.025663+00:00"
+      },
+      {
         "name": "pipet",
         "full_name": "bjesus/pipet",
         "url": "https://github.com/bjesus/pipet",
@@ -787,6 +882,17 @@
           "parsers_extractors"
         ],
         "categorized_at": "2026-01-24T15:39:52.620739+00:00"
+      },
+      {
+        "name": "urllib3",
+        "full_name": "urllib3/urllib3",
+        "url": "https://github.com/urllib3/urllib3",
+        "description": "urllib3 is a user-friendly HTTP client library for Python",
+        "stars": 3998,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:48:42.365479+00:00"
       },
       {
         "name": "bent",
@@ -855,6 +961,17 @@
         "categorized_at": "2026-01-24T15:43:30.131025+00:00"
       },
       {
+        "name": "httplib2",
+        "full_name": "httplib2/httplib2",
+        "url": "https://github.com/httplib2/httplib2",
+        "description": "Small, fast HTTP client library for Python. Features persistent connections, cache, and Google App Engine support. Originally written by Joe Gregorio, now supported by community.",
+        "stars": 503,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:48:43.498389+00:00"
+      },
+      {
         "name": "wreck",
         "full_name": "hapijs/wreck",
         "url": "https://github.com/hapijs/wreck",
@@ -900,6 +1017,29 @@
     ],
     "best_for": "Selecting specific elements once you already have the page source.",
     "repos": [
+      {
+        "name": "cheerio",
+        "full_name": "cheeriojs/cheerio",
+        "url": "https://github.com/cheeriojs/cheerio",
+        "description": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML.",
+        "stars": 30038,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:17.755175+00:00"
+      },
+      {
+        "name": "ua-parser-js",
+        "full_name": "faisalman/ua-parser-js",
+        "url": "https://github.com/faisalman/ua-parser-js",
+        "description": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side).",
+        "stars": 10025,
+        "categories": [
+          "parsers_extractors",
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:46:38.764688+00:00"
+      },
       {
         "name": "Scrapling",
         "full_name": "D4Vinci/Scrapling",
@@ -953,6 +1093,41 @@
         "categorized_at": "2026-01-24T15:39:54.036015+00:00"
       },
       {
+        "name": "exif-js",
+        "full_name": "exif-js/exif-js",
+        "url": "https://github.com/exif-js/exif-js",
+        "description": "JavaScript library for reading EXIF image metadata",
+        "stars": 4974,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:45.735048+00:00"
+      },
+      {
+        "name": "MechanicalSoup",
+        "full_name": "MechanicalSoup/MechanicalSoup",
+        "url": "https://github.com/MechanicalSoup/MechanicalSoup",
+        "description": "A Python library for automating interaction with websites.",
+        "stars": 4841,
+        "categories": [
+          "browser_automation",
+          "http_clients",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:48:48.025663+00:00"
+      },
+      {
+        "name": "htmlparser2",
+        "full_name": "fb55/htmlparser2",
+        "url": "https://github.com/fb55/htmlparser2",
+        "description": "The fast & forgiving HTML and XML parser",
+        "stars": 4791,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:13.214798+00:00"
+      },
+      {
         "name": "pipet",
         "full_name": "bjesus/pipet",
         "url": "https://github.com/bjesus/pipet",
@@ -964,6 +1139,175 @@
           "parsers_extractors"
         ],
         "categorized_at": "2026-01-24T15:39:52.620739+00:00"
+      },
+      {
+        "name": "parse5",
+        "full_name": "inikulin/parse5",
+        "url": "https://github.com/inikulin/parse5",
+        "description": "HTML parsing/serialization toolset for Node.js. WHATWG HTML Living Standard (aka HTML5)-compliant.",
+        "stars": 3863,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:09.664003+00:00"
+      },
+      {
+        "name": "robobrowser",
+        "full_name": "jmcarp/robobrowser",
+        "url": "https://github.com/jmcarp/robobrowser",
+        "description": "-",
+        "stars": 3704,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:48:44.919019+00:00"
+      },
+      {
+        "name": "he",
+        "full_name": "mathiasbynens/he",
+        "url": "https://github.com/mathiasbynens/he",
+        "description": "A robust HTML entity encoder/decoder written in JavaScript.",
+        "stars": 3663,
+        "categories": [
+          "data_cleaning",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:34.570446+00:00"
+      },
+      {
+        "name": "ocrad.js",
+        "full_name": "antimatter15/ocrad.js",
+        "url": "https://github.com/antimatter15/ocrad.js",
+        "description": "OCR in Javascript via Emscripten",
+        "stars": 3515,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:48:37.738047+00:00"
+      },
+      {
+        "name": "node-feedparser",
+        "full_name": "danmactough/node-feedparser",
+        "url": "https://github.com/danmactough/node-feedparser",
+        "description": "Robust RSS, Atom, and RDF feed parsing in Node.js",
+        "stars": 1979,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:47:15.208079+00:00"
+      },
+      {
+        "name": "mailparser",
+        "full_name": "nodemailer/mailparser",
+        "url": "https://github.com/nodemailer/mailparser",
+        "description": "Decode mime formatted e-mails",
+        "stars": 1655,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:48:10.793687+00:00"
+      },
+      {
+        "name": "sax-js",
+        "full_name": "isaacs/sax-js",
+        "url": "https://github.com/isaacs/sax-js",
+        "description": "A sax style parser for JS",
+        "stars": 1135,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:16.396716+00:00"
+      },
+      {
+        "name": "surgeon",
+        "full_name": "gajus/surgeon",
+        "url": "https://github.com/gajus/surgeon",
+        "description": "Declarative DOM extraction expression evaluator. 👨‍⚕️",
+        "stars": 690,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:26.347364+00:00"
+      },
+      {
+        "name": "node-read",
+        "full_name": "bndr/node-read",
+        "url": "https://github.com/bndr/node-read",
+        "description": "Get Readable Content from any page. Based on Arc90's readability project using cheerio engine.",
+        "stars": 636,
+        "categories": [
+          "parsers_extractors",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:48:31.897009+00:00"
+      },
+      {
+        "name": "jBinary",
+        "full_name": "jDataView/jBinary",
+        "url": "https://github.com/jDataView/jBinary",
+        "description": "High-level API for working with binary data.",
+        "stars": 551,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:40.387784+00:00"
+      },
+      {
+        "name": "parse-css",
+        "full_name": "tabatkins/parse-css",
+        "url": "https://github.com/tabatkins/parse-css",
+        "description": ":horse_racing: Standards-based CSS Parser",
+        "stars": 346,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:47.906509+00:00"
+      },
+      {
+        "name": "parser-lib",
+        "full_name": "CSSLint/parser-lib",
+        "url": "https://github.com/CSSLint/parser-lib",
+        "description": "Collection of parsers written in JavaScript",
+        "stars": 293,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:48.995632+00:00"
+      },
+      {
+        "name": "BabyParse",
+        "full_name": "Rich-Harris/BabyParse",
+        "url": "https://github.com/Rich-Harris/BabyParse",
+        "description": "BabyParse is a fast, reliable CSV parser based on PapaParse (http://PapaParse.com)",
+        "stars": 259,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:41.696776+00:00"
+      },
+      {
+        "name": "ImageResolver",
+        "full_name": "mauricesvay/ImageResolver",
+        "url": "https://github.com/mauricesvay/ImageResolver",
+        "description": "ImageResolver.js does its best to determine the main image on a URL without loading all images.",
+        "stars": 163,
+        "categories": [
+          "parsers_extractors",
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:35.125547+00:00"
+      },
+      {
+        "name": "node-bookmarks-parser",
+        "full_name": "calibr/node-bookmarks-parser",
+        "url": "https://github.com/calibr/node-bookmarks-parser",
+        "description": "Parses Firefox/Chrome HTML bookmarks files",
+        "stars": 52,
+        "categories": [
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:47:16.669190+00:00"
       },
       {
         "name": "webparsy",
@@ -1074,6 +1418,18 @@
           "evasion_fingerprinting"
         ],
         "categorized_at": "2026-01-24T15:39:13.690725+00:00"
+      },
+      {
+        "name": "proxy-chain",
+        "full_name": "apify/proxy-chain",
+        "url": "https://github.com/apify/proxy-chain",
+        "description": "Node.js implementation of a proxy server (think Squid) with support for SSL, HTTP/HTTPS, SOCKS5, authentication, and upstream proxy chaining.",
+        "stars": 969,
+        "categories": [
+          "evasion_fingerprinting",
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:41.143364+00:00"
       }
     ]
   },
@@ -1090,6 +1446,17 @@
     "best_for": "Post-processing data before saving it to a database.",
     "repos": [
       {
+        "name": "js-xss",
+        "full_name": "leizongmin/js-xss",
+        "url": "https://github.com/leizongmin/js-xss",
+        "description": "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist",
+        "stars": 5307,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:46:24.715642+00:00"
+      },
+      {
         "name": "trafilatura",
         "full_name": "adbar/trafilatura",
         "url": "https://github.com/adbar/trafilatura",
@@ -1101,6 +1468,74 @@
           "data_cleaning"
         ],
         "categorized_at": "2026-01-24T15:39:54.036015+00:00"
+      },
+      {
+        "name": "franc",
+        "full_name": "wooorm/franc",
+        "url": "https://github.com/wooorm/franc",
+        "description": "Natural language detection",
+        "stars": 4365,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:47:54.324643+00:00"
+      },
+      {
+        "name": "he",
+        "full_name": "mathiasbynens/he",
+        "url": "https://github.com/mathiasbynens/he",
+        "description": "A robust HTML entity encoder/decoder written in JavaScript.",
+        "stars": 3663,
+        "categories": [
+          "data_cleaning",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:46:34.570446+00:00"
+      },
+      {
+        "name": "CSV.js",
+        "full_name": "CyrusNuevoDia/CSV.js",
+        "url": "https://github.com/CyrusNuevoDia/CSV.js",
+        "description": "A simple, blazing-fast CSV parser and encoder. Full RFC 4180 compliance.",
+        "stars": 1539,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:46:42.861924+00:00"
+      },
+      {
+        "name": "date",
+        "full_name": "matthewmueller/date",
+        "url": "https://github.com/matthewmueller/date",
+        "description": "Date() for humans",
+        "stars": 1481,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:46:32.056089+00:00"
+      },
+      {
+        "name": "node-read",
+        "full_name": "bndr/node-read",
+        "url": "https://github.com/bndr/node-read",
+        "description": "Get Readable Content from any page. Based on Arc90's readability project using cheerio engine.",
+        "stars": 636,
+        "categories": [
+          "parsers_extractors",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:48:31.897009+00:00"
+      },
+      {
+        "name": "guessLanguage.js",
+        "full_name": "richtr/guessLanguage.js",
+        "url": "https://github.com/richtr/guessLanguage.js",
+        "description": "A natural language detection library based on trigram statistical analysis for Node.js and the Web.",
+        "stars": 213,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:47:55.637782+00:00"
       },
       {
         "name": "teracrawl",
@@ -1126,6 +1561,39 @@
           "data_cleaning"
         ],
         "categorized_at": "2026-01-24T15:39:55.661126+00:00"
+      },
+      {
+        "name": "snowball-js",
+        "full_name": "fortnightlabs/snowball-js",
+        "url": "https://github.com/fortnightlabs/snowball-js",
+        "description": "javascript implementation of the popular snowball word stemming nlp algorithm ",
+        "stars": 102,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:47:34.520804+00:00"
+      },
+      {
+        "name": "porter-stemmer",
+        "full_name": "jedp/porter-stemmer",
+        "url": "https://github.com/jedp/porter-stemmer",
+        "description": "Martin Porter's stemmer for node.js",
+        "stars": 100,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:47:36.135884+00:00"
+      },
+      {
+        "name": "Porter-Stemmer",
+        "full_name": "kristopolous/Porter-Stemmer",
+        "url": "https://github.com/kristopolous/Porter-Stemmer",
+        "description": "A Javascript Implementation of the Porter Stemmer",
+        "stars": 96,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:47:48.332429+00:00"
       }
     ]
   },
@@ -1134,7 +1602,121 @@
     "description": "Tools and libraries related to web scraping that don't fit neatly into other categories.",
     "examples": [],
     "best_for": "Miscellaneous scraping-related utilities and tools.",
-    "repos": []
+    "repos": [
+      {
+        "name": "markdown-it",
+        "full_name": "markdown-it/markdown-it",
+        "url": "https://github.com/markdown-it/markdown-it",
+        "description": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed",
+        "stars": 20977,
+        "categories": [
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:47:14.030546+00:00"
+      },
+      {
+        "name": "headless-recorder",
+        "full_name": "checkly/headless-recorder",
+        "url": "https://github.com/checkly/headless-recorder",
+        "description": "Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. ",
+        "stars": 15235,
+        "categories": [
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:46:03.222637+00:00"
+      },
+      {
+        "name": "ua-parser-js",
+        "full_name": "faisalman/ua-parser-js",
+        "url": "https://github.com/faisalman/ua-parser-js",
+        "description": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side).",
+        "stars": 10025,
+        "categories": [
+          "parsers_extractors",
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:46:38.764688+00:00"
+      },
+      {
+        "name": "query-string",
+        "full_name": "sindresorhus/query-string",
+        "url": "https://github.com/sindresorhus/query-string",
+        "description": "Parse and stringify URL query strings",
+        "stars": 6905,
+        "categories": [
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:12.492079+00:00"
+      },
+      {
+        "name": "URI.js",
+        "full_name": "medialize/URI.js",
+        "url": "https://github.com/medialize/URI.js",
+        "description": "Javascript URL mutation library",
+        "stars": 6248,
+        "categories": [
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:13.651924+00:00"
+      },
+      {
+        "name": "node-ytdl-core",
+        "full_name": "fent/node-ytdl-core",
+        "url": "https://github.com/fent/node-ytdl-core",
+        "description": "YouTube video downloader in javascript.",
+        "stars": 4725,
+        "categories": [
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:33.721297+00:00"
+      },
+      {
+        "name": "arg.js",
+        "full_name": "stretchr/arg.js",
+        "url": "https://github.com/stretchr/arg.js",
+        "description": "Lightweight URL argument and parameter parser",
+        "stars": 1057,
+        "categories": [
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:27.047340+00:00"
+      },
+      {
+        "name": "proxy-chain",
+        "full_name": "apify/proxy-chain",
+        "url": "https://github.com/apify/proxy-chain",
+        "description": "Node.js implementation of a proxy server (think Squid) with support for SSL, HTTP/HTTPS, SOCKS5, authentication, and upstream proxy chaining.",
+        "stars": 969,
+        "categories": [
+          "evasion_fingerprinting",
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:41.143364+00:00"
+      },
+      {
+        "name": "domurl",
+        "full_name": "Mikhus/domurl",
+        "url": "https://github.com/Mikhus/domurl",
+        "description": "Lightweight URL manipulation with JavaScript",
+        "stars": 576,
+        "categories": [
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:14.857496+00:00"
+      },
+      {
+        "name": "ImageResolver",
+        "full_name": "mauricesvay/ImageResolver",
+        "url": "https://github.com/mauricesvay/ImageResolver",
+        "description": "ImageResolver.js does its best to determine the main image on a URL without loading all images.",
+        "stars": 163,
+        "categories": [
+          "parsers_extractors",
+          "other"
+        ],
+        "categorized_at": "2026-01-24T15:48:35.125547+00:00"
+      }
+    ]
   },
   "rejected": {
     "name": "Rejected",
@@ -1142,6 +1724,94 @@
     "examples": [],
     "best_for": "Filtering out irrelevant repositories.",
     "repos": [
+      {
+        "name": "async",
+        "full_name": "caolan/async",
+        "url": "https://github.com/caolan/async",
+        "description": "Async utilities for node and the browser",
+        "stars": 28214,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:06.641402+00:00"
+      },
+      {
+        "name": "bull",
+        "full_name": "OptimalBits/bull",
+        "url": "https://github.com/OptimalBits/bull",
+        "description": "Premium Queue package for handling distributed jobs and messages in NodeJS.",
+        "stars": 16222,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:09.367769+00:00"
+      },
+      {
+        "name": "natural",
+        "full_name": "NaturalNode/natural",
+        "url": "https://github.com/NaturalNode/natural",
+        "description": "general natural language facilities for node",
+        "stars": 10865,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:47:29.017288+00:00"
+      },
+      {
+        "name": "tracking.js",
+        "full_name": "eduardolundgren/tracking.js",
+        "url": "https://github.com/eduardolundgren/tracking.js",
+        "description": "A modern approach for Computer Vision on the web",
+        "stars": 9486,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:36.400914+00:00"
+      },
+      {
+        "name": "kue",
+        "full_name": "Automattic/kue",
+        "url": "https://github.com/Automattic/kue",
+        "description": "Kue is a priority job queue backed by redis, built for node.js.",
+        "stars": 9455,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:07.940624+00:00"
+      },
+      {
+        "name": "ms",
+        "full_name": "vercel/ms",
+        "url": "https://github.com/vercel/ms",
+        "description": "Tiny millisecond conversion utility",
+        "stars": 5489,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:33.201569+00:00"
+      },
+      {
+        "name": "TinyColor",
+        "full_name": "bgrins/TinyColor",
+        "url": "https://github.com/bgrins/TinyColor",
+        "description": "Fast, small color manipulation and conversion for JavaScript",
+        "stars": 5225,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:37.381574+00:00"
+      },
+      {
+        "name": "accounting.js",
+        "full_name": "openexchangerates/accounting.js",
+        "url": "https://github.com/openexchangerates/accounting.js",
+        "description": "A lightweight JavaScript library for number, money and currency formatting - fully localisable, zero dependencies.",
+        "stars": 4987,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:28.753929+00:00"
+      },
       {
         "name": "engine.io",
         "full_name": "socketio/engine.io",
@@ -1152,6 +1822,17 @@
           "rejected"
         ],
         "categorized_at": "2026-01-24T15:45:05.595843+00:00"
+      },
+      {
+        "name": "moment-timezone",
+        "full_name": "moment/moment-timezone",
+        "url": "https://github.com/moment/moment-timezone",
+        "description": "Timezone support for moment.js",
+        "stars": 3879,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:30.429568+00:00"
       },
       {
         "name": "WebSocket-Node",
@@ -1165,6 +1846,94 @@
         "categorized_at": "2026-01-24T15:45:08.053264+00:00"
       },
       {
+        "name": "toxy",
+        "full_name": "h2non/toxy",
+        "url": "https://github.com/h2non/toxy",
+        "description": "Hackable HTTP proxy for resiliency testing and simulated network conditions",
+        "stars": 2721,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:39.032745+00:00"
+      },
+      {
+        "name": "string.js",
+        "full_name": "jprichardson/string.js",
+        "url": "https://github.com/jprichardson/string.js",
+        "description": "Extra JavaScript string methods. ",
+        "stars": 1805,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:27.507070+00:00"
+      },
+      {
+        "name": "node-ip",
+        "full_name": "indutny/node-ip",
+        "url": "https://github.com/indutny/node-ip",
+        "description": "IP address tools for node.js",
+        "stars": 1550,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:28.160380+00:00"
+      },
+      {
+        "name": "money.js",
+        "full_name": "openexchangerates/money.js",
+        "url": "https://github.com/openexchangerates/money.js",
+        "description": "money.js is a tiny (1kb) javascript currency conversion library, for web & nodeJS",
+        "stars": 1473,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:36.125963+00:00"
+      },
+      {
+        "name": "json3",
+        "full_name": "bestiejs/json3",
+        "url": "https://github.com/bestiejs/json3",
+        "description": "A JSON polyfill. No longer maintained.",
+        "stars": 1021,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:44.539810+00:00"
+      },
+      {
+        "name": "node-summary",
+        "full_name": "jbrooksuk/node-summary",
+        "url": "https://github.com/jbrooksuk/node-summary",
+        "description": "Node module that summarizes text using a naive summarization algorithm",
+        "stars": 770,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:47:32.905051+00:00"
+      },
+      {
+        "name": "node-webworker",
+        "full_name": "pgriess/node-webworker",
+        "url": "https://github.com/pgriess/node-webworker",
+        "description": "A WebWorkers implementation for NodeJS",
+        "stars": 642,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:05.338419+00:00"
+      },
+      {
+        "name": "ip-address",
+        "full_name": "beaugunderson/ip-address",
+        "url": "https://github.com/beaugunderson/ip-address",
+        "description": "💻 a library for parsing and manipulating IPv4 and IPv6 addresses in JavaScript",
+        "stars": 601,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:30.674069+00:00"
+      },
+      {
         "name": "node-dns",
         "full_name": "tjfontaine/node-dns",
         "url": "https://github.com/tjfontaine/node-dns",
@@ -1174,6 +1943,17 @@
           "rejected"
         ],
         "categorized_at": "2026-01-24T15:45:10.638653+00:00"
+      },
+      {
+        "name": "sql-parser",
+        "full_name": "forward/sql-parser",
+        "url": "https://github.com/forward/sql-parser",
+        "description": "A SQL parser written in pure JS",
+        "stars": 542,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:47:02.435456+00:00"
       },
       {
         "name": "multicast-dns",
@@ -1187,6 +1967,39 @@
         "categorized_at": "2026-01-24T15:45:09.090359+00:00"
       },
       {
+        "name": "parse-torrent",
+        "full_name": "webtorrent/parse-torrent",
+        "url": "https://github.com/webtorrent/parse-torrent",
+        "description": "Parse a torrent identifier (magnet uri, .torrent file, info hash)",
+        "stars": 458,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:46:50.185383+00:00"
+      },
+      {
+        "name": "lunr-languages",
+        "full_name": "MihaiValentin/lunr-languages",
+        "url": "https://github.com/MihaiValentin/lunr-languages",
+        "description": "A collection of languages stemmers and stopwords for Lunr Javascript library",
+        "stars": 449,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:47:49.699527+00:00"
+      },
+      {
+        "name": "hanzi",
+        "full_name": "nieldlr/hanzi",
+        "url": "https://github.com/nieldlr/hanzi",
+        "description": "HanziJS is a Chinese character and NLP module for Chinese language processing for Node.js",
+        "stars": 403,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:47:30.381258+00:00"
+      },
+      {
         "name": "websocket.io",
         "full_name": "LearnBoost/websocket.io",
         "url": "https://github.com/LearnBoost/websocket.io",
@@ -1196,6 +2009,39 @@
           "rejected"
         ],
         "categorized_at": "2026-01-24T15:45:06.739652+00:00"
+      },
+      {
+        "name": "nexpect",
+        "full_name": "nodejitsu/nexpect",
+        "url": "https://github.com/nodejitsu/nexpect",
+        "description": "spawn and control child processes in node.js with ease",
+        "stars": 291,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:47:57.945350+00:00"
+      },
+      {
+        "name": "respawn",
+        "full_name": "mafintosh/respawn",
+        "url": "https://github.com/mafintosh/respawn",
+        "description": "Spawn a process and restart it if it crashes",
+        "stars": 257,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:48:02.261990+00:00"
+      },
+      {
+        "name": "salient",
+        "full_name": "nyxtom/salient",
+        "url": "https://github.com/nyxtom/salient",
+        "description": "Machine Learning, Natural Language Processing and Sentiment Analysis Toolkit for Node.js",
+        "stars": 241,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:47:31.699102+00:00"
       }
     ]
   }
