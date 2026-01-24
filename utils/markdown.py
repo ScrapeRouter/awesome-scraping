@@ -66,8 +66,11 @@ def get_categorized_repo_names(categories: dict) -> set[str]:
     return names
 
 
-# Categories to exclude from README output
-EXCLUDED_CATEGORIES = {"rejected", "hall_of_fame", "artefacts"}
+# Categories to exclude from README output entirely
+EXCLUDED_CATEGORIES = {"rejected"}
+
+# Special categories that appear at the end of README (in order)
+END_CATEGORIES = ["hall_of_fame", "artefacts"]
 
 
 def generate_category_tables(categories: dict, repos: list[dict]) -> dict[str, str]:
@@ -85,8 +88,8 @@ def generate_category_tables(categories: dict, repos: list[dict]) -> dict[str, s
     
     tables = {}
     for cat_id, cat_data in categories.items():
-        # Skip excluded categories (like "rejected")
-        if cat_id in EXCLUDED_CATEGORIES:
+        # Skip excluded categories (like "rejected") and end categories
+        if cat_id in EXCLUDED_CATEGORIES or cat_id in END_CATEGORIES:
             continue
         
         cat_repos = cat_data.get("repos", [])
@@ -113,7 +116,48 @@ def generate_category_tables(categories: dict, repos: list[dict]) -> dict[str, s
     return tables
 
 
-def generate_markdown_table(repos: list[dict], categories: dict | None = None) -> tuple[str, dict[str, str]]:
+def generate_end_category_tables(categories: dict, repos: list[dict]) -> dict[str, str]:
+    """Generate markdown tables for end categories (hall_of_fame, artefacts).
+    
+    Args:
+        categories: Categories dictionary from categories.json
+        repos: List of all repos with full data from urls.json
+        
+    Returns:
+        Dictionary mapping category_id to markdown table string
+    """
+    # Build a lookup from repo name to full repo data
+    repo_lookup = {r["name"]: r for r in repos if "stars" in r}
+    
+    tables = {}
+    for cat_id in END_CATEGORIES:
+        if cat_id not in categories:
+            continue
+        
+        cat_data = categories[cat_id]
+        cat_repos = cat_data.get("repos", [])
+        if not cat_repos:
+            continue
+        
+        # Enrich category repos with full data from urls.json
+        enriched_repos = []
+        for cat_repo in cat_repos:
+            name = cat_repo["name"]
+            if name in repo_lookup:
+                merged = {**repo_lookup[name], "categories": cat_repo.get("categories", [])}
+                enriched_repos.append(merged)
+            else:
+                enriched_repos.append(cat_repo)
+        
+        # Sort by stars descending
+        enriched_repos = sorted(enriched_repos, key=lambda x: x.get("stars", 0), reverse=True)
+        
+        tables[cat_id] = _build_table(enriched_repos)
+    
+    return tables
+
+
+def generate_markdown_table(repos: list[dict], categories: dict | None = None) -> tuple[str, dict[str, str], dict[str, str]]:
     """Generate markdown tables from repository data.
     
     Args:
@@ -123,20 +167,24 @@ def generate_markdown_table(repos: list[dict], categories: dict | None = None) -
                    and puts uncategorized repos in a separate table.
                
     Returns:
-        Tuple of (uncategorized_table, category_tables)
+        Tuple of (uncategorized_table, category_tables, end_category_tables)
         category_tables is a dict mapping category_id to table string
+        end_category_tables is a dict for hall_of_fame and artefacts
     """
     # Filter out entries without full data (only have url)
     complete_repos = [r for r in repos if "stars" in r]
 
     if not complete_repos:
-        return "_No repositories found._", {}
+        return "_No repositories found._", {}, {}
 
     # Get categorized repo names
     categorized_names = get_categorized_repo_names(categories) if categories else set()
     
     # Generate category tables
     category_tables = generate_category_tables(categories, complete_repos) if categories else {}
+    
+    # Generate end category tables (hall_of_fame, artefacts)
+    end_category_tables = generate_end_category_tables(categories, complete_repos) if categories else {}
 
     # Collect all uncategorized repos (regardless of age)
     uncategorized_repos = [
@@ -149,7 +197,7 @@ def generate_markdown_table(repos: list[dict], categories: dict | None = None) -
 
     uncategorized_table = _build_table(uncategorized_repos) if uncategorized_repos else ""
 
-    return uncategorized_table, category_tables
+    return uncategorized_table, category_tables, end_category_tables
 
 
 def _generate_anchor(text: str) -> str:
@@ -169,18 +217,18 @@ def _generate_anchor(text: str) -> str:
 
 
 def update_readme(
-    tables: tuple[str, dict[str, str]],
+    tables: tuple[str, dict[str, str], dict[str, str]],
     categories: dict | None = None,
     readme_path: str = "README.md"
 ) -> None:
     """Update README.md with the generated tables.
     
     Args:
-        tables: Tuple of (uncategorized_table, category_tables)
+        tables: Tuple of (uncategorized_table, category_tables, end_category_tables)
         categories: Categories dictionary for section headers/descriptions
         readme_path: Path to README file (default: README.md)
     """
-    uncategorized_table, category_tables = tables
+    uncategorized_table, category_tables, end_category_tables = tables
     
     header = "# awesome-scraping\n\n"
     header += "A curated list of awesome scraping tools and libraries. "
@@ -199,6 +247,12 @@ def update_readme(
             content += f"- [{cat_name}](#{anchor})\n"
         if uncategorized_table:
             content += "- [Uncategorized](#uncategorized)\n"
+        # Add end categories to TOC
+        for cat_id in END_CATEGORIES:
+            if cat_id in end_category_tables and cat_id in categories:
+                cat_name = categories[cat_id].get("name", cat_id)
+                anchor = _generate_anchor(cat_name)
+                content += f"- [{cat_name}](#{anchor})\n"
         content += "\n"
     
     # Add category sections
@@ -222,9 +276,24 @@ def update_readme(
     if uncategorized_table:
         content += "## Uncategorized\n\n"
         content += "_Repositories not yet categorized, sorted by stars._\n\n"
-        content += uncategorized_table + "\n"
+        content += uncategorized_table + "\n\n"
+    
+    # Add end category sections (hall_of_fame, artefacts)
+    if categories and end_category_tables:
+        for cat_id in END_CATEGORIES:
+            if cat_id not in end_category_tables:
+                continue
+            
+            cat_data = categories[cat_id]
+            cat_name = cat_data.get("name", cat_id)
+            cat_description = cat_data.get("description", "")
+            
+            content += f"## {cat_name}\n\n"
+            if cat_description:
+                content += f"_{cat_description}_\n\n"
+            content += end_category_tables[cat_id] + "\n\n"
 
     with open(readme_path, "w") as f:
-        f.write(content)
+        f.write(content.rstrip() + "\n")
 
     print(f"Updated {readme_path}")
