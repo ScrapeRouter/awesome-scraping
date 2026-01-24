@@ -1047,7 +1047,7 @@
         "full_name": "puppeteer/puppeteer",
         "url": "https://github.com/puppeteer/puppeteer",
         "description": "JavaScript API for Chrome and Firefox",
-        "stars": 93383,
+        "stars": 93382,
         "version": "puppeteer-core-v24.36.0",
         "updated_at": "2026-01-22",
         "topics": [
@@ -1126,7 +1126,7 @@
         "full_name": "microsoft/playwright",
         "url": "https://github.com/microsoft/playwright",
         "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-        "stars": 81629,
+        "stars": 81630,
         "version": "v1.58.0",
         "updated_at": "2026-01-23",
         "topics": [
@@ -1999,7 +1999,7 @@
         "full_name": "projectdiscovery/httpx",
         "url": "https://github.com/projectdiscovery/httpx",
         "description": "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.",
-        "stars": 9438,
+        "stars": 9437,
         "version": "v1.8.1",
         "updated_at": "2026-01-22",
         "topics": [
@@ -2276,7 +2276,7 @@
         "full_name": "unclecode/crawl4ai",
         "url": "https://github.com/unclecode/crawl4ai",
         "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-        "stars": 58950,
+        "stars": 58949,
         "version": "v0.8.0",
         "updated_at": "2026-01-16",
         "topics": []
@@ -3397,7 +3397,7 @@
         "full_name": "seleniumbase/SeleniumBase",
         "url": "https://github.com/seleniumbase/SeleniumBase",
         "description": "Python APIs for web automation, testing, and bypassing bot-detection with ease.",
-        "stars": 12115,
+        "stars": 12116,
         "version": "v4.46.0",
         "updated_at": "2026-01-20",
         "topics": [
