@@ -18,6 +18,7 @@ from utils import (
     update_readme,
     update_urls_json,
 )
+from utils.markdown import load_categories
 
 
 def main() -> None:
@@ -54,9 +55,16 @@ def main() -> None:
     # Write updated urls.json with fetched data
     update_urls_json(repos)
 
+    # Load categories for generating category tables
+    categories = load_categories()
+    if categories:
+        print(f"Loaded {len(categories)} categories from categories.json")
+    else:
+        print("No categories.json found, generating tables without categories")
+
     # Generate tables and update README
-    tables = generate_markdown_table(repos)
-    update_readme(tables)
+    tables = generate_markdown_table(repos, categories)
+    update_readme(tables, categories)
 
 
 if __name__ == "__main__":

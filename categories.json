@@ -1,0 +1,1180 @@
+{
+  "full_featured_frameworks": {
+    "name": "Full-Featured Frameworks",
+    "description": "All-in-one solutions designed to handle crawling (visiting many pages) and scraping (extracting data) at scale.",
+    "examples": [
+      "Scrapy",
+      "Crawlee",
+      "Firecrawl",
+      "Crawl4AI"
+    ],
+    "best_for": "Large projects requiring structured data and managed workflows.",
+    "repos": [
+      {
+        "name": "firecrawl",
+        "full_name": "firecrawl/firecrawl",
+        "url": "https://github.com/firecrawl/firecrawl",
+        "description": "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
+        "stars": 76985,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:11.778417+00:00"
+      },
+      {
+        "name": "Scrapegraph-ai",
+        "full_name": "ScrapeGraphAI/Scrapegraph-ai",
+        "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+        "description": "Python scraper based on AI",
+        "stars": 22365,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:38:42.486646+00:00"
+      },
+      {
+        "name": "crawlee",
+        "full_name": "apify/crawlee",
+        "url": "https://github.com/apify/crawlee",
+        "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+        "stars": 21254,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:28.089029+00:00"
+      },
+      {
+        "name": "maxun",
+        "full_name": "getmaxun/maxun",
+        "url": "https://github.com/getmaxun/maxun",
+        "description": "Turn websites into clean data pipelines & structured APIs in minutes!",
+        "stars": 14161,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:38:57.888421+00:00"
+      },
+      {
+        "name": "Scrapling",
+        "full_name": "D4Vinci/Scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
+        "stars": 8841,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "parsers_extractors",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:04.575031+00:00"
+      },
+      {
+        "name": "node-crawler",
+        "full_name": "bda-research/node-crawler",
+        "url": "https://github.com/bda-research/node-crawler",
+        "description": "Web Crawler/Spider for NodeJS + server-side jQuery ;-)",
+        "stars": 6786,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:45:24.239990+00:00"
+      },
+      {
+        "name": "trafilatura",
+        "full_name": "adbar/trafilatura",
+        "url": "https://github.com/adbar/trafilatura",
+        "description": "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML",
+        "stars": 5218,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:54.036015+00:00"
+      },
+      {
+        "name": "Scraperr",
+        "full_name": "jaypyles/Scraperr",
+        "url": "https://github.com/jaypyles/Scraperr",
+        "description": "Self-hosted webscraper.",
+        "stars": 4817,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:38:29.791251+00:00"
+      },
+      {
+        "name": "google-maps-scraper",
+        "full_name": "gosom/google-maps-scraper",
+        "url": "https://github.com/gosom/google-maps-scraper",
+        "description": "scrape data  data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
+        "stars": 2709,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:39:30.259194+00:00"
+      },
+      {
+        "name": "ai-crawler-py",
+        "full_name": "oxylabs/ai-crawler-py",
+        "url": "https://github.com/oxylabs/ai-crawler-py",
+        "description": "Crawl a website starting from a URL, find relevant pages, and extract data – all guided by your natural language prompt.",
+        "stars": 2615,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:50.782121+00:00"
+      },
+      {
+        "name": "AnyCrawl",
+        "full_name": "any4ai/AnyCrawl",
+        "url": "https://github.com/any4ai/AnyCrawl",
+        "description": "AnyCrawl 🚀: A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results from Google/Bing/Baidu/etc. Native multi-threading for bulk processing.",
+        "stars": 2529,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:48.952153+00:00"
+      },
+      {
+        "name": "oxylabs-ai-studio-py",
+        "full_name": "oxylabs/oxylabs-ai-studio-py",
+        "url": "https://github.com/oxylabs/oxylabs-ai-studio-py",
+        "description": "Structured data gathering from any website using AI-powered scraper, crawler, and browser automation. Scraping and crawling with natural language prompts. Equip your LLM agents with fresh data. AI Studio python SDK for intelligent web data gathering. ",
+        "stars": 2375,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:36.368320+00:00"
+      },
+      {
+        "name": "simplecrawler",
+        "full_name": "simplecrawler/simplecrawler",
+        "url": "https://github.com/simplecrawler/simplecrawler",
+        "description": "Flexible event driven crawler for node.",
+        "stars": 2136,
+        "categories": [
+          "full_featured_frameworks"
+        ],
+        "categorized_at": "2026-01-24T15:45:25.666407+00:00"
+      },
+      {
+        "name": "django-dynamic-scraper",
+        "full_name": "holgerd77/django-dynamic-scraper",
+        "url": "https://github.com/holgerd77/django-dynamic-scraper",
+        "description": "Creating Scrapy scrapers via the Django admin interface",
+        "stars": 1160,
+        "categories": [
+          "full_featured_frameworks"
+        ],
+        "categorized_at": "2026-01-24T15:39:21.082796+00:00"
+      },
+      {
+        "name": "pjscrape",
+        "full_name": "nrabinowitz/pjscrape",
+        "url": "https://github.com/nrabinowitz/pjscrape",
+        "description": "A web-scraping framework written in Javascript, using PhantomJS and jQuery",
+        "stars": 994,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:30.518264+00:00"
+      },
+      {
+        "name": "scrapecraft",
+        "full_name": "ScrapeGraphAI/scrapecraft",
+        "url": "https://github.com/ScrapeGraphAI/scrapecraft",
+        "description": "🤖 AI-powered web scraping editor with visual workflow builder. Build, test & deploy web scrapers using natural language. Powered by ScrapeGraphAI & LangGraph.",
+        "stars": 581,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:31.845883+00:00"
+      },
+      {
+        "name": "ayakashi",
+        "full_name": "ayakashi-io/ayakashi",
+        "url": "https://github.com/ayakashi-io/ayakashi",
+        "description": ":zap: Ayakashi.io - The next generation web scraping framework",
+        "stars": 215,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:29.307508+00:00"
+      },
+      {
+        "name": "teracrawl",
+        "full_name": "BrowserCash/teracrawl",
+        "url": "https://github.com/BrowserCash/teracrawl",
+        "description": "High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers. Firecrawl alternative",
+        "stars": 189,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:33.509831+00:00"
+      }
+    ]
+  },
+  "browser_automation": {
+    "name": "Browser Automation",
+    "description": "Tools that control real web browsers (Chrome, Firefox, WebKit). Essential for websites that require JavaScript to render.",
+    "examples": [
+      "Puppeteer",
+      "Playwright",
+      "SeleniumBase",
+      "Zendriver"
+    ],
+    "best_for": "High-interactivity sites, SPAs (Single Page Apps), and bypassing simple bot detection.",
+    "repos": [
+      {
+        "name": "phantomjs",
+        "full_name": "ariya/phantomjs",
+        "url": "https://github.com/ariya/phantomjs",
+        "description": "Scriptable Headless Browser",
+        "stars": 29493,
+        "categories": [
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:32.087838+00:00"
+      },
+      {
+        "name": "crawlee",
+        "full_name": "apify/crawlee",
+        "url": "https://github.com/apify/crawlee",
+        "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+        "stars": 21254,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:28.089029+00:00"
+      },
+      {
+        "name": "maxun",
+        "full_name": "getmaxun/maxun",
+        "url": "https://github.com/getmaxun/maxun",
+        "description": "Turn websites into clean data pipelines & structured APIs in minutes!",
+        "stars": 14161,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:38:57.888421+00:00"
+      },
+      {
+        "name": "Scrapling",
+        "full_name": "D4Vinci/Scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
+        "stars": 8841,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "parsers_extractors",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:04.575031+00:00"
+      },
+      {
+        "name": "casperjs",
+        "full_name": "casperjs/casperjs",
+        "url": "https://github.com/casperjs/casperjs",
+        "description": "CasperJS is no longer actively maintained. Navigation scripting and testing utility for PhantomJS and SlimerJS",
+        "stars": 7180,
+        "categories": [
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:35.302437+00:00"
+      },
+      {
+        "name": "camoufox",
+        "full_name": "daijro/camoufox",
+        "url": "https://github.com/daijro/camoufox",
+        "description": "🦊 Anti-detect browser",
+        "stars": 4891,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:27.921783+00:00"
+      },
+      {
+        "name": "Scraperr",
+        "full_name": "jaypyles/Scraperr",
+        "url": "https://github.com/jaypyles/Scraperr",
+        "description": "Self-hosted webscraper.",
+        "stars": 4817,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:38:29.791251+00:00"
+      },
+      {
+        "name": "pipet",
+        "full_name": "bjesus/pipet",
+        "url": "https://github.com/bjesus/pipet",
+        "description": "Swiss-army tool for scraping and extracting data from online assets, made for hackers ",
+        "stars": 4640,
+        "categories": [
+          "browser_automation",
+          "http_clients",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:39:52.620739+00:00"
+      },
+      {
+        "name": "slimerjs",
+        "full_name": "laurentj/slimerjs",
+        "url": "https://github.com/laurentj/slimerjs",
+        "description": "A scriptable browser like PhantomJS, based on Firefox",
+        "stars": 2995,
+        "categories": [
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:33.934273+00:00"
+      },
+      {
+        "name": "google-maps-scraper",
+        "full_name": "gosom/google-maps-scraper",
+        "url": "https://github.com/gosom/google-maps-scraper",
+        "description": "scrape data  data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
+        "stars": 2709,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:39:30.259194+00:00"
+      },
+      {
+        "name": "oxylabs-ai-studio-py",
+        "full_name": "oxylabs/oxylabs-ai-studio-py",
+        "url": "https://github.com/oxylabs/oxylabs-ai-studio-py",
+        "description": "Structured data gathering from any website using AI-powered scraper, crawler, and browser automation. Scraping and crawling with natural language prompts. Equip your LLM agents with fresh data. AI Studio python SDK for intelligent web data gathering. ",
+        "stars": 2375,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:36.368320+00:00"
+      },
+      {
+        "name": "patchright",
+        "full_name": "Kaliiiiiiiiii-Vinyzu/patchright",
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+        "description": "Undetected version of the Playwright testing and automation library.",
+        "stars": 2167,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:55.130915+00:00"
+      },
+      {
+        "name": "parsera",
+        "full_name": "raznem/parsera",
+        "url": "https://github.com/raznem/parsera",
+        "description": "Lightweight library for scraping web-sites with LLMs",
+        "stars": 1259,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:23.207828+00:00"
+      },
+      {
+        "name": "patchright-python",
+        "full_name": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python",
+        "description": "Undetected Python version of the Playwright testing and automation library. ",
+        "stars": 1083,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:39:19.614431+00:00"
+      },
+      {
+        "name": "zendriver",
+        "full_name": "cdpdriver/zendriver",
+        "url": "https://github.com/cdpdriver/zendriver",
+        "description": "A blazing fast, async-first, undetectable webscraping/web automation framework based on ultrafunkamsterdam/nodriver. Now with Docker support!",
+        "stars": 1064,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:39:13.690725+00:00"
+      },
+      {
+        "name": "pjscrape",
+        "full_name": "nrabinowitz/pjscrape",
+        "url": "https://github.com/nrabinowitz/pjscrape",
+        "description": "A web-scraping framework written in Javascript, using PhantomJS and jQuery",
+        "stars": 994,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:30.518264+00:00"
+      },
+      {
+        "name": "HyperAgent",
+        "full_name": "hyperbrowserai/HyperAgent",
+        "url": "https://github.com/hyperbrowserai/HyperAgent",
+        "description": "AI Browser Automation",
+        "stars": 988,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:10.337976+00:00"
+      },
+      {
+        "name": "reverse-api-engineer",
+        "full_name": "kalil0321/reverse-api-engineer",
+        "url": "https://github.com/kalil0321/reverse-api-engineer",
+        "description": "Claude engineer that captures traffic, writes documentation and automatically generates API clients. Reverse engineer APIs!",
+        "stars": 324,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:34.997694+00:00"
+      },
+      {
+        "name": "ayakashi",
+        "full_name": "ayakashi-io/ayakashi",
+        "url": "https://github.com/ayakashi-io/ayakashi",
+        "description": ":zap: Ayakashi.io - The next generation web scraping framework",
+        "stars": 215,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-01-24T15:45:29.307508+00:00"
+      },
+      {
+        "name": "teracrawl",
+        "full_name": "BrowserCash/teracrawl",
+        "url": "https://github.com/BrowserCash/teracrawl",
+        "description": "High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers. Firecrawl alternative",
+        "stars": 189,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:33.509831+00:00"
+      },
+      {
+        "name": "webparsy",
+        "full_name": "joseconstela/webparsy",
+        "url": "https://github.com/joseconstela/webparsy",
+        "description": "Node.JS library and cli for scraping websites using Puppeteer (or not) and YAML definitions",
+        "stars": 49,
+        "categories": [
+          "browser_automation",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:45:11.913360+00:00"
+      }
+    ]
+  },
+  "ai_llm_scrapers": {
+    "name": "AI & LLM-Powered Scrapers",
+    "description": "The 'new wave' of scrapers that use Large Language Models to understand page structure and extract data using natural language.",
+    "examples": [
+      "Scrapegraph-ai",
+      "CyberScraper-2077",
+      "HyperAgent"
+    ],
+    "best_for": "Unstructured sites or when you don't want to write manual CSS/XPath selectors.",
+    "repos": [
+      {
+        "name": "firecrawl",
+        "full_name": "firecrawl/firecrawl",
+        "url": "https://github.com/firecrawl/firecrawl",
+        "description": "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
+        "stars": 76985,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:11.778417+00:00"
+      },
+      {
+        "name": "Scrapegraph-ai",
+        "full_name": "ScrapeGraphAI/Scrapegraph-ai",
+        "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+        "description": "Python scraper based on AI",
+        "stars": 22365,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:38:42.486646+00:00"
+      },
+      {
+        "name": "Scrapling",
+        "full_name": "D4Vinci/Scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
+        "stars": 8841,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "parsers_extractors",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:04.575031+00:00"
+      },
+      {
+        "name": "autoscraper",
+        "full_name": "alirezamika/autoscraper",
+        "url": "https://github.com/alirezamika/autoscraper",
+        "description": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python",
+        "stars": 7076,
+        "categories": [
+          "ai_llm_scrapers",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:38:06.064967+00:00"
+      },
+      {
+        "name": "CyberScraper-2077",
+        "full_name": "itsOwen/CyberScraper-2077",
+        "url": "https://github.com/itsOwen/CyberScraper-2077",
+        "description": "A Powerful web scraper powered by LLM | OpenAI, Gemini & Ollama",
+        "stars": 2633,
+        "categories": [
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:38:37.335185+00:00"
+      },
+      {
+        "name": "ai-crawler-py",
+        "full_name": "oxylabs/ai-crawler-py",
+        "url": "https://github.com/oxylabs/ai-crawler-py",
+        "description": "Crawl a website starting from a URL, find relevant pages, and extract data – all guided by your natural language prompt.",
+        "stars": 2615,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:50.782121+00:00"
+      },
+      {
+        "name": "AnyCrawl",
+        "full_name": "any4ai/AnyCrawl",
+        "url": "https://github.com/any4ai/AnyCrawl",
+        "description": "AnyCrawl 🚀: A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results from Google/Bing/Baidu/etc. Native multi-threading for bulk processing.",
+        "stars": 2529,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:48.952153+00:00"
+      },
+      {
+        "name": "oxylabs-ai-studio-py",
+        "full_name": "oxylabs/oxylabs-ai-studio-py",
+        "url": "https://github.com/oxylabs/oxylabs-ai-studio-py",
+        "description": "Structured data gathering from any website using AI-powered scraper, crawler, and browser automation. Scraping and crawling with natural language prompts. Equip your LLM agents with fresh data. AI Studio python SDK for intelligent web data gathering. ",
+        "stars": 2375,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:36.368320+00:00"
+      },
+      {
+        "name": "scrapeghost",
+        "full_name": "jamesturk/scrapeghost",
+        "url": "https://github.com/jamesturk/scrapeghost",
+        "description": "👻 Experimental library for scraping websites using OpenAI's GPT API.",
+        "stars": 1445,
+        "categories": [
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:24.704033+00:00"
+      },
+      {
+        "name": "parsera",
+        "full_name": "raznem/parsera",
+        "url": "https://github.com/raznem/parsera",
+        "description": "Lightweight library for scraping web-sites with LLMs",
+        "stars": 1259,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:23.207828+00:00"
+      },
+      {
+        "name": "HyperAgent",
+        "full_name": "hyperbrowserai/HyperAgent",
+        "url": "https://github.com/hyperbrowserai/HyperAgent",
+        "description": "AI Browser Automation",
+        "stars": 988,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:10.337976+00:00"
+      },
+      {
+        "name": "scrapecraft",
+        "full_name": "ScrapeGraphAI/scrapecraft",
+        "url": "https://github.com/ScrapeGraphAI/scrapecraft",
+        "description": "🤖 AI-powered web scraping editor with visual workflow builder. Build, test & deploy web scrapers using natural language. Powered by ScrapeGraphAI & LangGraph.",
+        "stars": 581,
+        "categories": [
+          "full_featured_frameworks",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:31.845883+00:00"
+      },
+      {
+        "name": "reverse-api-engineer",
+        "full_name": "kalil0321/reverse-api-engineer",
+        "url": "https://github.com/kalil0321/reverse-api-engineer",
+        "description": "Claude engineer that captures traffic, writes documentation and automatically generates API clients. Reverse engineer APIs!",
+        "stars": 324,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-01-24T15:39:34.997694+00:00"
+      },
+      {
+        "name": "teracrawl",
+        "full_name": "BrowserCash/teracrawl",
+        "url": "https://github.com/BrowserCash/teracrawl",
+        "description": "High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers. Firecrawl alternative",
+        "stars": 189,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:33.509831+00:00"
+      }
+    ]
+  },
+  "http_clients": {
+    "name": "HTTP Clients & Request Libraries",
+    "description": "Lightweight tools used to fetch the raw HTML/data of a page without the overhead of a full browser.",
+    "examples": [
+      "Axios",
+      "Httpx",
+      "Got",
+      "Urllib3",
+      "Curl_cffi"
+    ],
+    "best_for": "Speed, performance, and simple APIs.",
+    "repos": [
+      {
+        "name": "axios",
+        "full_name": "axios/axios",
+        "url": "https://github.com/axios/axios",
+        "description": "Promise based HTTP client for the browser and node.js",
+        "stars": 108520,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:40:09.642491+00:00"
+      },
+      {
+        "name": "request",
+        "full_name": "request/request",
+        "url": "https://github.com/request/request",
+        "description": "🏊🏾 Simplified HTTP request client.",
+        "stars": 25615,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:39:57.957462+00:00"
+      },
+      {
+        "name": "superagent",
+        "full_name": "forwardemail/superagent",
+        "url": "https://github.com/forwardemail/superagent",
+        "description": "Ajax for Node.js and browsers (JS HTTP client). Maintained for @forwardemail, @ladjs, @spamscanner, @breejs, @cabinjs, and @lassjs.",
+        "stars": 16653,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:43:28.822719+00:00"
+      },
+      {
+        "name": "got",
+        "full_name": "sindresorhus/got",
+        "url": "https://github.com/sindresorhus/got",
+        "description": "🌐 Human-friendly and powerful HTTP request library for Node.js",
+        "stars": 14862,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:40:04.104549+00:00"
+      },
+      {
+        "name": "node-fetch",
+        "full_name": "node-fetch/node-fetch",
+        "url": "https://github.com/node-fetch/node-fetch",
+        "description": "A light-weight module that brings the Fetch API to Node.js",
+        "stars": 8859,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:40:05.570844+00:00"
+      },
+      {
+        "name": "pipet",
+        "full_name": "bjesus/pipet",
+        "url": "https://github.com/bjesus/pipet",
+        "description": "Swiss-army tool for scraping and extracting data from online assets, made for hackers ",
+        "stars": 4640,
+        "categories": [
+          "browser_automation",
+          "http_clients",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:39:52.620739+00:00"
+      },
+      {
+        "name": "bent",
+        "full_name": "mikeal/bent",
+        "url": "https://github.com/mikeal/bent",
+        "description": "Functional JS HTTP client (Node.js & Fetch) w/ async await",
+        "stars": 2197,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:40:07.737320+00:00"
+      },
+      {
+        "name": "needle",
+        "full_name": "tomas/needle",
+        "url": "https://github.com/tomas/needle",
+        "description": "Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.",
+        "stars": 1635,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:43:31.476033+00:00"
+      },
+      {
+        "name": "requests-cache",
+        "full_name": "requests-cache/requests-cache",
+        "url": "https://github.com/requests-cache/requests-cache",
+        "description": "Persistent HTTP cache for python requests",
+        "stars": 1477,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:38:40.622162+00:00"
+      },
+      {
+        "name": "pycurl",
+        "full_name": "pycurl/pycurl",
+        "url": "https://github.com/pycurl/pycurl",
+        "description": "PycURL - Python interface to libcurl",
+        "stars": 1145,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:39:25.926671+00:00"
+      },
+      {
+        "name": "rest",
+        "full_name": "cujojs/rest",
+        "url": "https://github.com/cujojs/rest",
+        "description": "RESTful HTTP client for JavaScript",
+        "stars": 995,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:40:00.815898+00:00"
+      },
+      {
+        "name": "urllib",
+        "full_name": "node-modules/urllib",
+        "url": "https://github.com/node-modules/urllib",
+        "description": "Request HTTP(s) URLs in a complex world.",
+        "stars": 742,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:43:30.131025+00:00"
+      },
+      {
+        "name": "wreck",
+        "full_name": "hapijs/wreck",
+        "url": "https://github.com/hapijs/wreck",
+        "description": "HTTP Client Utilities",
+        "stars": 378,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:40:02.485124+00:00"
+      },
+      {
+        "name": "requests",
+        "full_name": "kennethreitz/requests",
+        "url": "https://github.com/kennethreitz/requests",
+        "description": "A simple, yet elegant HTTP library.",
+        "stars": 308,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:39:27.717415+00:00"
+      },
+      {
+        "name": "socks5-http-client",
+        "full_name": "mattcg/socks5-http-client",
+        "url": "https://github.com/mattcg/socks5-http-client",
+        "description": "SOCKS v5 HTTP client implementation in JavaScript for Node.js.",
+        "stars": 255,
+        "categories": [
+          "http_clients"
+        ],
+        "categorized_at": "2026-01-24T15:39:59.384473+00:00"
+      }
+    ]
+  },
+  "parsers_extractors": {
+    "name": "Parsers & Extractors",
+    "description": "Tools that take raw HTML or XML and turn it into a format your code can read (like JSON).",
+    "examples": [
+      "Cheerio",
+      "BeautifulSoup (via lxml)",
+      "Selectolax",
+      "Htmlparser2"
+    ],
+    "best_for": "Selecting specific elements once you already have the page source.",
+    "repos": [
+      {
+        "name": "Scrapling",
+        "full_name": "D4Vinci/Scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
+        "stars": 8841,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "parsers_extractors",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:04.575031+00:00"
+      },
+      {
+        "name": "autoscraper",
+        "full_name": "alirezamika/autoscraper",
+        "url": "https://github.com/alirezamika/autoscraper",
+        "description": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python",
+        "stars": 7076,
+        "categories": [
+          "ai_llm_scrapers",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:38:06.064967+00:00"
+      },
+      {
+        "name": "node-crawler",
+        "full_name": "bda-research/node-crawler",
+        "url": "https://github.com/bda-research/node-crawler",
+        "description": "Web Crawler/Spider for NodeJS + server-side jQuery ;-)",
+        "stars": 6786,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:45:24.239990+00:00"
+      },
+      {
+        "name": "trafilatura",
+        "full_name": "adbar/trafilatura",
+        "url": "https://github.com/adbar/trafilatura",
+        "description": "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML",
+        "stars": 5218,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:54.036015+00:00"
+      },
+      {
+        "name": "pipet",
+        "full_name": "bjesus/pipet",
+        "url": "https://github.com/bjesus/pipet",
+        "description": "Swiss-army tool for scraping and extracting data from online assets, made for hackers ",
+        "stars": 4640,
+        "categories": [
+          "browser_automation",
+          "http_clients",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:39:52.620739+00:00"
+      },
+      {
+        "name": "webparsy",
+        "full_name": "joseconstela/webparsy",
+        "url": "https://github.com/joseconstela/webparsy",
+        "description": "Node.JS library and cli for scraping websites using Puppeteer (or not) and YAML definitions",
+        "stars": 49,
+        "categories": [
+          "browser_automation",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-01-24T15:45:11.913360+00:00"
+      }
+    ]
+  },
+  "evasion_fingerprinting": {
+    "name": "Evasion & Fingerprinting",
+    "description": "Libraries specifically designed to help scrapers look like real users and avoid being blocked.",
+    "examples": [
+      "Cloudscraper",
+      "Camoufox",
+      "Proxy-chain",
+      "Fake-useragent"
+    ],
+    "best_for": "Bypassing Cloudflare, Akamai, or other anti-bot services.",
+    "repos": [
+      {
+        "name": "Scrapling",
+        "full_name": "D4Vinci/Scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!",
+        "stars": 8841,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "parsers_extractors",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:04.575031+00:00"
+      },
+      {
+        "name": "browser-fingerprinting",
+        "full_name": "niespodd/browser-fingerprinting",
+        "url": "https://github.com/niespodd/browser-fingerprinting",
+        "description": "Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?",
+        "stars": 4942,
+        "categories": [
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:07.842092+00:00"
+      },
+      {
+        "name": "camoufox",
+        "full_name": "daijro/camoufox",
+        "url": "https://github.com/daijro/camoufox",
+        "description": "🦊 Anti-detect browser",
+        "stars": 4891,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:27.921783+00:00"
+      },
+      {
+        "name": "scrapoxy",
+        "full_name": "scrapoxy/scrapoxy",
+        "url": "https://github.com/scrapoxy/scrapoxy",
+        "description": "Scrapoxy is a super proxies manager that orchestrates all your proxies into one place, rather than spreading management across multiple scrapers. It manages IP rotation and fingerprinting, and smartly routes traffic to avoid bans.",
+        "stars": 2430,
+        "categories": [
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:39.064698+00:00"
+      },
+      {
+        "name": "patchright",
+        "full_name": "Kaliiiiiiiiii-Vinyzu/patchright",
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+        "description": "Undetected version of the Playwright testing and automation library.",
+        "stars": 2167,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:38:55.130915+00:00"
+      },
+      {
+        "name": "patchright-python",
+        "full_name": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python",
+        "description": "Undetected Python version of the Playwright testing and automation library. ",
+        "stars": 1083,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:39:19.614431+00:00"
+      },
+      {
+        "name": "zendriver",
+        "full_name": "cdpdriver/zendriver",
+        "url": "https://github.com/cdpdriver/zendriver",
+        "description": "A blazing fast, async-first, undetectable webscraping/web automation framework based on ultrafunkamsterdam/nodriver. Now with Docker support!",
+        "stars": 1064,
+        "categories": [
+          "browser_automation",
+          "evasion_fingerprinting"
+        ],
+        "categorized_at": "2026-01-24T15:39:13.690725+00:00"
+      }
+    ]
+  },
+  "data_cleaning": {
+    "name": "Data Cleaning & Sanitization",
+    "description": "Tools to clean up the 'messy' data you've extracted, such as stripping HTML tags or converting dates.",
+    "examples": [
+      "Bleach",
+      "Js-xss",
+      "Dateparser",
+      "Price-parser",
+      "Python-slugify"
+    ],
+    "best_for": "Post-processing data before saving it to a database.",
+    "repos": [
+      {
+        "name": "trafilatura",
+        "full_name": "adbar/trafilatura",
+        "url": "https://github.com/adbar/trafilatura",
+        "description": "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML",
+        "stars": 5218,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:54.036015+00:00"
+      },
+      {
+        "name": "teracrawl",
+        "full_name": "BrowserCash/teracrawl",
+        "url": "https://github.com/BrowserCash/teracrawl",
+        "description": "High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers. Firecrawl alternative",
+        "stars": 189,
+        "categories": [
+          "full_featured_frameworks",
+          "browser_automation",
+          "ai_llm_scrapers",
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:33.509831+00:00"
+      },
+      {
+        "name": "courlan",
+        "full_name": "adbar/courlan",
+        "url": "https://github.com/adbar/courlan",
+        "description": "Clean, filter and sample URLs to optimize data collection – Python & command-line – Deduplication, spam, content and language filters",
+        "stars": 158,
+        "categories": [
+          "data_cleaning"
+        ],
+        "categorized_at": "2026-01-24T15:39:55.661126+00:00"
+      }
+    ]
+  },
+  "other": {
+    "name": "Other",
+    "description": "Tools and libraries related to web scraping that don't fit neatly into other categories.",
+    "examples": [],
+    "best_for": "Miscellaneous scraping-related utilities and tools.",
+    "repos": []
+  },
+  "rejected": {
+    "name": "Rejected",
+    "description": "Repositories that are NOT related to web scraping, crawling, or data extraction. This includes general-purpose libraries, unrelated tools, or repos that were miscategorized.",
+    "examples": [],
+    "best_for": "Filtering out irrelevant repositories.",
+    "repos": [
+      {
+        "name": "engine.io",
+        "full_name": "socketio/engine.io",
+        "url": "https://github.com/socketio/engine.io",
+        "description": "The engine used in the Socket.IO JavaScript server, which manages the low-level transports such as HTTP long-polling and WebSocket. ",
+        "stars": 4593,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:45:05.595843+00:00"
+      },
+      {
+        "name": "WebSocket-Node",
+        "full_name": "theturtle32/WebSocket-Node",
+        "url": "https://github.com/theturtle32/WebSocket-Node",
+        "description": "A WebSocket Implementation for Node.JS (Draft -08 through the final RFC 6455)",
+        "stars": 3788,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:45:08.053264+00:00"
+      },
+      {
+        "name": "node-dns",
+        "full_name": "tjfontaine/node-dns",
+        "url": "https://github.com/tjfontaine/node-dns",
+        "description": "Replacement dns module in pure javascript for node.js",
+        "stars": 581,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:45:10.638653+00:00"
+      },
+      {
+        "name": "multicast-dns",
+        "full_name": "mafintosh/multicast-dns",
+        "url": "https://github.com/mafintosh/multicast-dns",
+        "description": "Low level multicast-dns implementation in pure javascript",
+        "stars": 528,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:45:09.090359+00:00"
+      },
+      {
+        "name": "websocket.io",
+        "full_name": "LearnBoost/websocket.io",
+        "url": "https://github.com/LearnBoost/websocket.io",
+        "description": "-",
+        "stars": 327,
+        "categories": [
+          "rejected"
+        ],
+        "categorized_at": "2026-01-24T15:45:06.739652+00:00"
+      }
+    ]
+  }
+}
