@@ -67,7 +67,7 @@ def get_categorized_repo_names(categories: dict) -> set[str]:
 
 
 # Categories to exclude from README output
-EXCLUDED_CATEGORIES = {"rejected"}
+EXCLUDED_CATEGORIES = {"rejected", "hall_of_fame", "artefacts"}
 
 
 def generate_category_tables(categories: dict, repos: list[dict]) -> dict[str, str]:
@@ -152,6 +152,22 @@ def generate_markdown_table(repos: list[dict], categories: dict | None = None) -
     return uncategorized_table, category_tables
 
 
+def _generate_anchor(text: str) -> str:
+    """Generate a markdown anchor from header text.
+    
+    Args:
+        text: Header text to convert to anchor
+        
+    Returns:
+        Anchor string (lowercase, spaces replaced with hyphens)
+    """
+    # Convert to lowercase and replace spaces with hyphens
+    anchor = text.lower().replace(" ", "-")
+    # Remove special characters except hyphens
+    anchor = "".join(c for c in anchor if c.isalnum() or c == "-")
+    return anchor
+
+
 def update_readme(
     tables: tuple[str, dict[str, str]],
     categories: dict | None = None,
@@ -172,6 +188,19 @@ def update_readme(
     
     content = header
     
+    # Build table of contents
+    if categories and category_tables:
+        content += "## Table of Contents\n\n"
+        for cat_id, cat_data in categories.items():
+            if cat_id not in category_tables:
+                continue
+            cat_name = cat_data.get("name", cat_id)
+            anchor = _generate_anchor(cat_name)
+            content += f"- [{cat_name}](#{anchor})\n"
+        if uncategorized_table:
+            content += "- [Uncategorized](#uncategorized)\n"
+        content += "\n"
+    
     # Add category sections
     if categories and category_tables:
         for cat_id, cat_data in categories.items():
@@ -180,13 +209,13 @@ def update_readme(
             
             cat_name = cat_data.get("name", cat_id)
             cat_description = cat_data.get("description", "")
-            cat_best_for = cat_data.get("best_for", "")
+            # cat_best_for = cat_data.get("best_for", "")
             
             content += f"## {cat_name}\n\n"
             if cat_description:
                 content += f"_{cat_description}_\n\n"
-            if cat_best_for:
-                content += f"**Best for:** {cat_best_for}\n\n"
+            # if cat_best_for:
+            #     content += f"**Best for:** {cat_best_for}\n\n"
             content += category_tables[cat_id] + "\n\n"
     
     # Add uncategorized repos if any

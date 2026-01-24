@@ -84,12 +84,54 @@ CATEGORIES = {
         "examples": [],
         "best_for": "Filtering out irrelevant repositories.",
         "repos": []
+    },
+    "hall_of_fame": {
+        "name": "Hall of Fame",
+        "description": "Established repositories that haven't been updated in the last 6 months but have made significant contributions to the web scraping ecosystem.",
+        "examples": [],
+        "best_for": "Historical reference and learning from battle-tested solutions.",
+        "repos": []
+    },
+    "artefacts": {
+        "name": "Artefacts",
+        "description": "Repositories that haven't been updated in over a year. These may be outdated, abandoned, or superseded by newer tools.",
+        "examples": [],
+        "best_for": "Archaeological research into older scraping approaches.",
+        "repos": []
     }
 }
 
 CATEGORY_IDS = list(CATEGORIES.keys())
 
 README_MAX_CHARS = 1024
+
+# Thresholds for automatic categorization based on last update
+ARTEFACTS_DAYS = 365  # 1 year
+HALL_OF_FAME_DAYS = 180  # 6 months
+
+
+def get_age_category(repo: dict) -> str | None:
+    """
+    Check if repo should be auto-categorized based on last update date.
+    Returns category ID if repo is old enough, None otherwise.
+    """
+    updated_at = repo.get("updated_at")
+    if not updated_at:
+        return None
+    
+    try:
+        last_update = datetime.strptime(updated_at, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        now = datetime.now(timezone.utc)
+        days_since_update = (now - last_update).days
+        
+        if days_since_update > ARTEFACTS_DAYS:
+            return "artefacts"
+        elif days_since_update > HALL_OF_FAME_DAYS:
+            return "hall_of_fame"
+    except ValueError:
+        pass
+    
+    return None
 
 
 def fetch_readme(full_name: str) -> str:
@@ -271,14 +313,20 @@ def main():
         for i, repo in enumerate(repos_to_process):
             print(f"[{i+1}/{len(repos_to_process)}] Categorizing: {repo['name']}")
             
-            categories = categorize_repo(repo, client)
-            
-            # If no categories returned (LLM error), assign to "other" as fallback
-            if not categories:
-                categories = ["other"]
-                print("  -> No categories returned (fallback to other)")
+            # Check if repo should be auto-categorized based on age
+            age_category = get_age_category(repo)
+            if age_category:
+                categories = [age_category]
+                print(f"  -> Auto-categorized as '{age_category}' (last updated: {repo.get('updated_at', 'unknown')})")
             else:
-                print(f"  -> Categories: {categories}")
+                categories = categorize_repo(repo, client)
+                
+                # If no categories returned (LLM error), assign to "other" as fallback
+                if not categories:
+                    categories = ["other"]
+                    print("  -> No categories returned (fallback to other)")
+                else:
+                    print(f"  -> Categories: {categories}")
             
             newly_categorized += 1
             
