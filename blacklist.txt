@@ -28,3 +28,12 @@ https://github.com/validatorjs/validator.js
 https://github.com/vinta/awesome-python
 https://github.com/yaml/pyyaml
 https://github.com/msgpack/msgpack-python
+https://github.com/NaturalNode/natural
+https://github.com/python-openxml/python-docx
+https://github.com/moment/moment-timezone
+https://github.com/theturtle32/WebSocket-Node
+https://github.com/xhtml2pdf/xhtml2pdf
+https://github.com/python-excel/xlrd
+https://github.com/explosion/spaCy
+https://github.com/closeio/ciso8601
+https://github.com/psd-tools/psd-tools
