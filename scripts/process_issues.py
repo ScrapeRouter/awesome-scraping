@@ -25,7 +25,7 @@ HEADERS = {
 
 # Pattern to match GitHub repo URLs
 GITHUB_URL_PATTERN = re.compile(
-    r"add\s+(https://github\.com/[\w.-]+/[\w.-]+)",
+    r"add\s*:?\s+(https://github\.com/[\w.-]+/[\w.-]+)",
     re.IGNORECASE,
 )
 
