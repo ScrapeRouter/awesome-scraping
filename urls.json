@@ -4261,5 +4261,14 @@
         "version": "-",
         "updated_at": "2026-01-16",
         "topics": []
+    },
+    {
+        "url": "https://github.com/pras-ops/ScrapeWizard"
+    },
+    {
+        "url": "https://github.com/chebykinn/browser-code"
+    },
+    {
+        "url": "https://github.com/rodricios/wxpath"
     }
 ]
