@@ -4306,5 +4306,8 @@
             "web-graph-traversal",
             "web-query-language"
         ]
+    },
+    {
+        "url": "https://github.com/blitzbrowser/blitzbrowser"
     }
 ]
