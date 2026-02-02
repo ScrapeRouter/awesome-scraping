@@ -246,6 +246,30 @@
         "categorized_at": "2026-01-24T16:02:47.339389+00:00"
       },
       {
+        "name": "wxpath",
+        "full_name": "rodricios/wxpath",
+        "url": "https://github.com/rodricios/wxpath",
+        "description": "wxpath - declarative web crawling with XPath; a Web Query Language (WQL)",
+        "stars": 103,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-02-02T16:47:11.340294+00:00"
+      },
+      {
+        "name": "ytfetcher",
+        "full_name": "kaya70875/ytfetcher",
+        "url": "https://github.com/kaya70875/ytfetcher",
+        "description": "⚡ Build structured YouTube datasets at scale — effortlessly fetch transcripts and rich metadata for NLP, ML, and AI workflows.",
+        "stars": 53,
+        "categories": [
+          "full_featured_frameworks",
+          "other"
+        ],
+        "categorized_at": "2026-02-02T16:47:17.059191+00:00"
+      },
+      {
         "name": "starbelly",
         "full_name": "HyperionGray/starbelly",
         "url": "https://github.com/HyperionGray/starbelly",
@@ -527,6 +551,42 @@
           "ai_llm_scrapers"
         ],
         "categorized_at": "2026-01-24T16:02:47.339389+00:00"
+      },
+      {
+        "name": "blitzbrowser",
+        "full_name": "blitzbrowser/blitzbrowser",
+        "url": "https://github.com/blitzbrowser/blitzbrowser",
+        "description": "Deploy and manage headful browsers in docker.",
+        "stars": 144,
+        "categories": [
+          "browser_automation",
+          "other"
+        ],
+        "categorized_at": "2026-02-02T16:47:13.069354+00:00"
+      },
+      {
+        "name": "browser-code",
+        "full_name": "chebykinn/browser-code",
+        "url": "https://github.com/chebykinn/browser-code",
+        "description": "Coding agent for user scripts",
+        "stars": 97,
+        "categories": [
+          "ai_llm_scrapers",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-02-02T16:47:09.634451+00:00"
+      },
+      {
+        "name": "ScrapeWizard",
+        "full_name": "pras-ops/ScrapeWizard",
+        "url": "https://github.com/pras-ops/ScrapeWizard",
+        "description": "AI-powered CLI that analyzes websites and generates real Playwright web scrapers with built-in data quality checks",
+        "stars": 30,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-02-02T16:47:07.601897+00:00"
       }
     ]
   },
@@ -700,6 +760,42 @@
           "ai_llm_scrapers"
         ],
         "categorized_at": "2026-01-24T16:02:47.339389+00:00"
+      },
+      {
+        "name": "browser-code",
+        "full_name": "chebykinn/browser-code",
+        "url": "https://github.com/chebykinn/browser-code",
+        "description": "Coding agent for user scripts",
+        "stars": 97,
+        "categories": [
+          "ai_llm_scrapers",
+          "browser_automation"
+        ],
+        "categorized_at": "2026-02-02T16:47:09.634451+00:00"
+      },
+      {
+        "name": "ScrapeWizard",
+        "full_name": "pras-ops/ScrapeWizard",
+        "url": "https://github.com/pras-ops/ScrapeWizard",
+        "description": "AI-powered CLI that analyzes websites and generates real Playwright web scrapers with built-in data quality checks",
+        "stars": 30,
+        "categories": [
+          "browser_automation",
+          "ai_llm_scrapers"
+        ],
+        "categorized_at": "2026-02-02T16:47:07.601897+00:00"
+      },
+      {
+        "name": "nukitori",
+        "full_name": "vifreefly/nukitori",
+        "url": "https://github.com/vifreefly/nukitori",
+        "description": "Nukitori is a Ruby gem for HTML data extraction. It uses an LLM once to generate reusable XPath schemas, then extracts structured data from similarly structured pages using plain Nokogiri. This makes scraping fast, predictable, and cheap for repeated runs.",
+        "stars": 29,
+        "categories": [
+          "ai_llm_scrapers",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-02-02T16:47:15.221572+00:00"
       }
     ]
   },
@@ -1024,6 +1120,30 @@
           "data_cleaning"
         ],
         "categorized_at": "2026-01-24T16:04:32.924998+00:00"
+      },
+      {
+        "name": "wxpath",
+        "full_name": "rodricios/wxpath",
+        "url": "https://github.com/rodricios/wxpath",
+        "description": "wxpath - declarative web crawling with XPath; a Web Query Language (WQL)",
+        "stars": 103,
+        "categories": [
+          "full_featured_frameworks",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-02-02T16:47:11.340294+00:00"
+      },
+      {
+        "name": "nukitori",
+        "full_name": "vifreefly/nukitori",
+        "url": "https://github.com/vifreefly/nukitori",
+        "description": "Nukitori is a Ruby gem for HTML data extraction. It uses an LLM once to generate reusable XPath schemas, then extracts structured data from similarly structured pages using plain Nokogiri. This makes scraping fast, predictable, and cheap for repeated runs.",
+        "stars": 29,
+        "categories": [
+          "ai_llm_scrapers",
+          "parsers_extractors"
+        ],
+        "categorized_at": "2026-02-02T16:47:15.221572+00:00"
       },
       {
         "name": "hodor",
@@ -1380,6 +1500,30 @@
           "other"
         ],
         "categorized_at": "2026-01-24T16:04:37.830503+00:00"
+      },
+      {
+        "name": "blitzbrowser",
+        "full_name": "blitzbrowser/blitzbrowser",
+        "url": "https://github.com/blitzbrowser/blitzbrowser",
+        "description": "Deploy and manage headful browsers in docker.",
+        "stars": 144,
+        "categories": [
+          "browser_automation",
+          "other"
+        ],
+        "categorized_at": "2026-02-02T16:47:13.069354+00:00"
+      },
+      {
+        "name": "ytfetcher",
+        "full_name": "kaya70875/ytfetcher",
+        "url": "https://github.com/kaya70875/ytfetcher",
+        "description": "⚡ Build structured YouTube datasets at scale — effortlessly fetch transcripts and rich metadata for NLP, ML, and AI workflows.",
+        "stars": 53,
+        "categories": [
+          "full_featured_frameworks",
+          "other"
+        ],
+        "categorized_at": "2026-02-02T16:47:17.059191+00:00"
       },
       {
         "name": "crawl-lab",
