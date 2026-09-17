@@ -4,7 +4,7 @@
         "full_name": "D4Vinci/Scrapling",
         "url": "https://github.com/D4Vinci/Scrapling",
         "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ",
-        "stars": 81546,
+        "stars": 81209,
         "version": "v0.4.15",
         "updated_at": "2026-08-23",
         "topics": [
@@ -35,7 +35,7 @@
         "full_name": "alirezamika/autoscraper",
         "url": "https://github.com/alirezamika/autoscraper",
         "description": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python",
-        "stars": 7975,
+        "stars": 7973,
         "version": "v1.1.14",
         "updated_at": "2022-07-17",
         "topics": [
@@ -87,7 +87,7 @@
         "full_name": "daijro/camoufox",
         "url": "https://github.com/daijro/camoufox",
         "description": "\ud83e\udd8a Anti-detect browser",
-        "stars": 11956,
+        "stars": 11933,
         "version": "v152.0.4-beta.30",
         "updated_at": "2026-09-01",
         "topics": [
@@ -130,7 +130,7 @@
         "full_name": "itsOwen/CyberScraper-2077",
         "url": "https://github.com/itsOwen/CyberScraper-2077",
         "description": "A Powerful web scraper powered by LLM | OpenAI, Gemini & Ollama",
-        "stars": 3261,
+        "stars": 3260,
         "version": "-",
         "updated_at": "2026-09-10",
         "topics": [
@@ -180,7 +180,7 @@
         "full_name": "ScrapeGraphAI/Scrapegraph-ai",
         "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
         "description": "Python scraper based on AI",
-        "stars": 31042,
+        "stars": 31010,
         "version": "v2.2.4",
         "updated_at": "2026-09-07",
         "topics": [
@@ -211,7 +211,7 @@
         "full_name": "Kaliiiiiiiiii-Vinyzu/patchright",
         "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
         "description": "Undetected version of the Playwright testing and automation library.",
-        "stars": 4612,
+        "stars": 4598,
         "version": "v1.63.0",
         "updated_at": "2026-09-08",
         "topics": [
@@ -242,9 +242,9 @@
         "full_name": "getmaxun/maxun",
         "url": "https://github.com/getmaxun/maxun",
         "description": "\ud83d\udd25 The open-source no-code platform for web scraping, crawling, search and AI data extraction \u2022 Turn websites into structured APIs in minutes \ud83d\udd25 ",
-        "stars": 17475,
-        "version": "v0.0.47",
-        "updated_at": "2026-09-16",
+        "stars": 17462,
+        "version": "v0.0.46",
+        "updated_at": "2026-08-25",
         "topics": [
             "agents",
             "api",
@@ -271,7 +271,7 @@
         "full_name": "hyperbrowserai/HyperAgent",
         "url": "https://github.com/hyperbrowserai/HyperAgent",
         "description": "AI Browser Automation",
-        "stars": 1569,
+        "stars": 1566,
         "version": "v1.0.0",
         "updated_at": "2025-11-19",
         "topics": [
@@ -288,8 +288,8 @@
         "name": "firecrawl",
         "full_name": "firecrawl/firecrawl",
         "url": "https://github.com/firecrawl/firecrawl",
-        "description": "The web data API to search, scrape, and interact at scale. \ud83d\udd25",
-        "stars": 181338,
+        "description": "The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+        "stars": 180927,
         "version": "v2.11.0",
         "updated_at": "2026-06-19",
         "topics": [
@@ -319,7 +319,7 @@
         "full_name": "cdpdriver/zendriver",
         "url": "https://github.com/cdpdriver/zendriver",
         "description": "A blazing fast, async-first, undetectable webscraping/web automation framework based on ultrafunkamsterdam/nodriver. Now with Docker support!",
-        "stars": 1433,
+        "stars": 1432,
         "version": "v0.16.0",
         "updated_at": "2026-08-16",
         "topics": [
@@ -375,7 +375,7 @@
         "full_name": "holgerd77/django-dynamic-scraper",
         "url": "https://github.com/holgerd77/django-dynamic-scraper",
         "description": "Creating Scrapy scrapers via the Django admin interface",
-        "stars": 1155,
+        "stars": 1156,
         "version": "v0.13.2",
         "updated_at": "2019-02-15",
         "topics": [
@@ -452,7 +452,7 @@
         "full_name": "gosom/google-maps-scraper",
         "url": "https://github.com/gosom/google-maps-scraper",
         "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
-        "stars": 5901,
+        "stars": 5863,
         "version": "v1.18.0",
         "updated_at": "2026-09-13",
         "topics": [
@@ -497,7 +497,7 @@
         "full_name": "BrowserCash/teracrawl",
         "url": "https://github.com/BrowserCash/teracrawl",
         "description": "High-performance web crawler API optimized for LLMs. Turn any search or website into clean Markdown using remote browsers. Firecrawl alternative",
-        "stars": 284,
+        "stars": 283,
         "version": "v1.0.0",
         "updated_at": "2025-12-03",
         "topics": [
@@ -526,7 +526,7 @@
         "full_name": "kalil0321/reverse-api-engineer",
         "url": "https://github.com/kalil0321/reverse-api-engineer",
         "description": "The agent that turns websites into APIs!",
-        "stars": 1163,
+        "stars": 1155,
         "version": "v0.13.1",
         "updated_at": "2026-08-30",
         "topics": [
@@ -575,7 +575,7 @@
         "full_name": "any4ai/AnyCrawl",
         "url": "https://github.com/any4ai/AnyCrawl",
         "description": "AnyCrawl \ud83d\ude80: A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results from Google/Bing/Baidu/etc. Native multi-threading for bulk processing.",
-        "stars": 3458,
+        "stars": 3456,
         "version": "v1.0.0",
         "updated_at": "2026-09-09",
         "topics": [
@@ -633,7 +633,7 @@
         "full_name": "adbar/trafilatura",
         "url": "https://github.com/adbar/trafilatura",
         "description": "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML",
-        "stars": 6826,
+        "stars": 6824,
         "version": "v2.2.0",
         "updated_at": "2026-07-31",
         "topics": [
@@ -686,7 +686,7 @@
         "full_name": "request/request",
         "url": "https://github.com/request/request",
         "description": "\ud83c\udfca\ud83c\udffe Simplified HTTP request client.",
-        "stars": 25505,
+        "stars": 25504,
         "version": "-",
         "updated_at": "2020-02-11",
         "topics": []
@@ -779,7 +779,7 @@
         "full_name": "axios/axios",
         "url": "https://github.com/axios/axios",
         "description": "Promise based HTTP client for the browser and node.js",
-        "stars": 109200,
+        "stars": 109207,
         "version": "v1.20.0",
         "updated_at": "2026-08-24",
         "topics": [
@@ -924,7 +924,7 @@
         "full_name": "apify/crawlee",
         "url": "https://github.com/apify/crawlee",
         "description": "Crawlee\u2014A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
-        "stars": 25816,
+        "stars": 25812,
         "version": "v3.18.1",
         "updated_at": "2026-08-12",
         "topics": [
@@ -978,7 +978,7 @@
         "full_name": "ariya/phantomjs",
         "url": "https://github.com/ariya/phantomjs",
         "description": "Scriptable Headless Browser",
-        "stars": 29434,
+        "stars": 29435,
         "version": "-",
         "updated_at": "2020-07-13",
         "topics": [
@@ -1035,7 +1035,7 @@
         "full_name": "segment-boneyard/nightmare",
         "url": "https://github.com/segment-boneyard/nightmare",
         "description": "A high-level browser automation library.",
-        "stars": 19769,
+        "stars": 19768,
         "version": "1.0.5",
         "updated_at": "2014-09-30",
         "topics": [
@@ -1051,7 +1051,7 @@
         "full_name": "puppeteer/puppeteer",
         "url": "https://github.com/puppeteer/puppeteer",
         "description": "JavaScript API for Chrome and Firefox",
-        "stars": 95585,
+        "stars": 95581,
         "version": "puppeteer-core-v25.11.0",
         "updated_at": "2026-09-14",
         "topics": [
@@ -1130,7 +1130,7 @@
         "full_name": "microsoft/playwright",
         "url": "https://github.com/microsoft/playwright",
         "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-        "stars": 96233,
+        "stars": 96193,
         "version": "v1.63.0",
         "updated_at": "2026-09-04",
         "topics": [
@@ -1156,7 +1156,7 @@
         "full_name": "inikulin/parse5",
         "url": "https://github.com/inikulin/parse5",
         "description": "HTML parsing/serialization toolset for Node.js. WHATWG HTML Living Standard (aka HTML5)-compliant.",
-        "stars": 3931,
+        "stars": 3932,
         "version": "v8.0.1",
         "updated_at": "2026-04-19",
         "topics": [
@@ -1174,7 +1174,7 @@
         "full_name": "fb55/htmlparser2",
         "url": "https://github.com/fb55/htmlparser2",
         "description": "The fast & forgiving HTML and XML parser",
-        "stars": 4787,
+        "stars": 4788,
         "version": "v12.0.0",
         "updated_at": "2026-03-20",
         "topics": [
@@ -1202,7 +1202,7 @@
         "full_name": "cheeriojs/cheerio",
         "url": "https://github.com/cheeriojs/cheerio",
         "description": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML.",
-        "stars": 30486,
+        "stars": 30485,
         "version": "v1.2.0",
         "updated_at": "2026-01-23",
         "topics": [
@@ -1278,7 +1278,7 @@
         "full_name": "vercel/ms",
         "url": "https://github.com/vercel/ms",
         "description": "Tiny millisecond conversion utility",
-        "stars": 5550,
+        "stars": 5548,
         "version": "2.1.3",
         "updated_at": "2020-12-08",
         "topics": [
@@ -1319,7 +1319,7 @@
         "full_name": "bgrins/TinyColor",
         "url": "https://github.com/bgrins/TinyColor",
         "description": "Fast, small color manipulation and conversion for JavaScript",
-        "stars": 5251,
+        "stars": 5250,
         "version": "1.0.0",
         "updated_at": "2014-07-06",
         "topics": [
@@ -1371,7 +1371,7 @@
         "full_name": "CyrusNuevoDia/CSV.js",
         "url": "https://github.com/CyrusNuevoDia/CSV.js",
         "description": "A simple, blazing-fast CSV parser and encoder. Full RFC 4180 compliance.",
-        "stars": 1532,
+        "stars": 1533,
         "version": "-",
         "updated_at": "2016-10-04",
         "topics": []
@@ -1458,7 +1458,7 @@
         "full_name": "markdown-it/markdown-it",
         "url": "https://github.com/markdown-it/markdown-it",
         "description": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed",
-        "stars": 21911,
+        "stars": 21907,
         "version": "-",
         "updated_at": "2026-09-11",
         "topics": [
@@ -1634,7 +1634,7 @@
         "full_name": "caolan/async",
         "url": "https://github.com/caolan/async",
         "description": "Async utilities for node and the browser",
-        "stars": 28130,
+        "stars": 28131,
         "version": "v2.3.0",
         "updated_at": "2017-04-06",
         "topics": [
@@ -1648,7 +1648,7 @@
         "full_name": "Automattic/kue",
         "url": "https://github.com/Automattic/kue",
         "description": "Kue is a priority job queue backed by redis, built for node.js.",
-        "stars": 9421,
+        "stars": 9422,
         "version": "v0.11.6",
         "updated_at": "2017-06-02",
         "topics": [
@@ -1662,7 +1662,7 @@
         "full_name": "OptimalBits/bull",
         "url": "https://github.com/OptimalBits/bull",
         "description": "Premium Queue package for handling distributed jobs and messages in NodeJS.",
-        "stars": 16252,
+        "stars": 16250,
         "version": "v4.16.5",
         "updated_at": "2024-12-18",
         "topics": [
@@ -1695,7 +1695,7 @@
         "full_name": "sindresorhus/query-string",
         "url": "https://github.com/sindresorhus/query-string",
         "description": "Parse and stringify URL query strings",
-        "stars": 6907,
+        "stars": 6906,
         "version": "v9.5.1",
         "updated_at": "2026-09-01",
         "topics": [
@@ -1833,7 +1833,7 @@
         "full_name": "antimatter15/ocrad.js",
         "url": "https://github.com/antimatter15/ocrad.js",
         "description": "OCR in Javascript via Emscripten",
-        "stars": 3516,
+        "stars": 3517,
         "version": "-",
         "updated_at": "2019-06-16",
         "topics": []
@@ -1959,7 +1959,7 @@
         "full_name": "python-hyper/hyper",
         "url": "https://github.com/python-hyper/hyper",
         "description": "HTTP/2 for Python.",
-        "stars": 1048,
+        "stars": 1049,
         "version": "v0.7.0",
         "updated_at": "2020-08-02",
         "topics": []
@@ -1982,7 +1982,7 @@
         "full_name": "lexiforest/curl_cffi",
         "url": "https://github.com/lexiforest/curl_cffi",
         "description": "Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fingerprints.",
-        "stars": 6505,
+        "stars": 6499,
         "version": "v0.16.3",
         "updated_at": "2026-09-02",
         "topics": [
@@ -2019,7 +2019,7 @@
         "full_name": "projectdiscovery/httpx",
         "url": "https://github.com/projectdiscovery/httpx",
         "description": "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.",
-        "stars": 10399,
+        "stars": 10398,
         "version": "v1.12.0",
         "updated_at": "2026-09-08",
         "topics": [
@@ -2040,7 +2040,7 @@
         "full_name": "kbandla/dpkt",
         "url": "https://github.com/kbandla/dpkt",
         "description": "fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols",
-        "stars": 1163,
+        "stars": 1162,
         "version": "v1.9.8",
         "updated_at": "2022-08-18",
         "topics": []
@@ -2086,7 +2086,7 @@
         "full_name": "secdev/scapy",
         "url": "https://github.com/secdev/scapy",
         "description": "Scapy: the Python-based interactive packet manipulation program & library.",
-        "stars": 12547,
+        "stars": 12546,
         "version": "v2.7.0",
         "updated_at": "2025-12-26",
         "topics": [
@@ -2195,7 +2195,7 @@
         "full_name": "scrapy/scrapy",
         "url": "https://github.com/scrapy/scrapy",
         "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
-        "stars": 64370,
+        "stars": 64364,
         "version": "2.19.0",
         "updated_at": "2026-09-10",
         "topics": [
@@ -2259,7 +2259,7 @@
         "full_name": "scrapinghub/frontera",
         "url": "https://github.com/scrapinghub/frontera",
         "description": "A scalable frontier for web crawlers",
-        "stars": 1334,
+        "stars": 1333,
         "version": "v0.8.1",
         "updated_at": "2019-04-05",
         "topics": []
@@ -2296,7 +2296,7 @@
         "full_name": "unclecode/crawl4ai",
         "url": "https://github.com/unclecode/crawl4ai",
         "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-        "stars": 83707,
+        "stars": 83606,
         "version": "v0.9.3",
         "updated_at": "2026-08-31",
         "topics": []
@@ -2480,7 +2480,7 @@
         "description": "CSS Selectors for Python",
         "stars": 310,
         "version": "-",
-        "updated_at": "2026-09-16",
+        "updated_at": "2026-09-14",
         "topics": [
             "css",
             "hacktoberfest",
@@ -2667,7 +2667,7 @@
         "full_name": "kovidgoyal/html5-parser",
         "url": "https://github.com/kovidgoyal/html5-parser",
         "description": "Fast C based HTML 5 parsing for python",
-        "stars": 706,
+        "stars": 705,
         "version": "-",
         "updated_at": "2026-03-30",
         "topics": []
@@ -2735,7 +2735,7 @@
         "full_name": "seatgeek/fuzzywuzzy",
         "url": "https://github.com/seatgeek/fuzzywuzzy",
         "description": "Fuzzy String Matching in Python",
-        "stars": 9246,
+        "stars": 9247,
         "version": "0.18.0",
         "updated_at": "2020-02-13",
         "topics": []
@@ -2968,7 +2968,7 @@
         "full_name": "scrapinghub/dateparser",
         "url": "https://github.com/scrapinghub/dateparser",
         "description": "python parser for human readable dates",
-        "stars": 2859,
+        "stars": 2857,
         "version": "v1.4.3",
         "updated_at": "2026-09-03",
         "topics": [
@@ -2980,7 +2980,7 @@
         "full_name": "scrapinghub/price-parser",
         "url": "https://github.com/scrapinghub/price-parser",
         "description": "Extract price amount and currency symbol from a raw text string",
-        "stars": 348,
+        "stars": 347,
         "version": "-",
         "updated_at": "2026-03-19",
         "topics": [
@@ -3103,7 +3103,7 @@
         "full_name": "lepture/mistune",
         "url": "https://github.com/lepture/mistune",
         "description": "A fast yet powerful Python Markdown parser with renderers and plugins.",
-        "stars": 3076,
+        "stars": 3075,
         "version": "v3.3.4",
         "updated_at": "2026-07-22",
         "topics": [
@@ -3140,7 +3140,7 @@
         "full_name": "MagicStack/httptools",
         "url": "https://github.com/MagicStack/httptools",
         "description": "Fast HTTP parser",
-        "stars": 1327,
+        "stars": 1328,
         "version": "v0.8.0",
         "updated_at": "2026-05-25",
         "topics": []
@@ -3263,7 +3263,7 @@
         "full_name": "isnowfy/snownlp",
         "url": "https://github.com/isnowfy/snownlp",
         "description": "Python library for processing Chinese text",
-        "stars": 6630,
+        "stars": 6629,
         "version": "-",
         "updated_at": "2020-01-19",
         "topics": []
@@ -3303,7 +3303,7 @@
         "full_name": "pymorphy2/pymorphy2",
         "url": "https://github.com/pymorphy2/pymorphy2",
         "description": "Morphological analyzer / inflection engine for Russian and Ukrainian languages.",
-        "stars": 1176,
+        "stars": 1177,
         "version": "-",
         "updated_at": "2020-09-26",
         "topics": []
@@ -3375,7 +3375,7 @@
         "full_name": "scrapinghub/splash",
         "url": "https://github.com/scrapinghub/splash",
         "description": "Lightweight, scriptable browser as a service with an HTTP API",
-        "stars": 4187,
+        "stars": 4188,
         "version": "-",
         "updated_at": "2022-05-05",
         "topics": []
@@ -3399,7 +3399,7 @@
         "full_name": "microsoft/playwright-python",
         "url": "https://github.com/microsoft/playwright-python",
         "description": "Python version of the Playwright testing and automation library.",
-        "stars": 15005,
+        "stars": 15004,
         "version": "v1.63.0",
         "updated_at": "2026-09-15",
         "topics": [
@@ -3414,9 +3414,9 @@
         "full_name": "seleniumbase/SeleniumBase",
         "url": "https://github.com/seleniumbase/SeleniumBase",
         "description": "Browser automation, web scraping, and testing. CDP Mode provides a Stealthy Chromium instance that bypasses bot-detection systems. Includes an MCP server.",
-        "stars": 13020,
-        "version": "v4.54.8",
-        "updated_at": "2026-09-17",
+        "stars": 13015,
+        "version": "v4.54.7",
+        "updated_at": "2026-09-16",
         "topics": [
             "anti-detection",
             "bot-detection",
@@ -3445,7 +3445,7 @@
         "full_name": "omkarcloud/botasaurus",
         "url": "https://github.com/omkarcloud/botasaurus",
         "description": "The All in One Framework to Build Undefeatable Scrapers",
-        "stars": 5708,
+        "stars": 5706,
         "version": "-",
         "updated_at": "2026-07-26",
         "topics": [
@@ -3476,9 +3476,9 @@
         "full_name": "apify/crawlee-python",
         "url": "https://github.com/apify/crawlee-python",
         "description": "Crawlee\u2014A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Parsel, BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.",
-        "stars": 9532,
-        "version": "v1.10.1",
-        "updated_at": "2026-09-16",
+        "stars": 9528,
+        "version": "v1.10.0",
+        "updated_at": "2026-08-31",
         "topics": [
             "apify",
             "automation",
@@ -3537,7 +3537,7 @@
         "full_name": "spyoungtech/grequests",
         "url": "https://github.com/spyoungtech/grequests",
         "description": "Requests + Gevent = <3",
-        "stars": 4570,
+        "stars": 4571,
         "version": "v0.7.0",
         "updated_at": "2023-06-08",
         "topics": []
@@ -3673,7 +3673,7 @@
         "full_name": "coleifer/micawber",
         "url": "https://github.com/coleifer/micawber",
         "description": "a small library for extracting rich content from urls",
-        "stars": 678,
+        "stars": 679,
         "version": "-",
         "updated_at": "2026-09-03",
         "topics": [
@@ -3686,7 +3686,7 @@
         "full_name": "john-kurkowski/tldextract",
         "url": "https://github.com/john-kurkowski/tldextract",
         "description": "Accurately separates a URL\u2019s subdomain, domain, and public suffix, using the Public Suffix List (PSL).",
-        "stars": 2022,
+        "stars": 2019,
         "version": "5.3.2",
         "updated_at": "2026-08-08",
         "topics": [
@@ -3714,7 +3714,7 @@
         "full_name": "codelucas/newspaper",
         "url": "https://github.com/codelucas/newspaper",
         "description": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:",
-        "stars": 15161,
+        "stars": 15156,
         "version": "0.0.9",
         "updated_at": "2014-12-17",
         "topics": [
@@ -3731,7 +3731,7 @@
         "full_name": "grangier/python-goose",
         "url": "https://github.com/grangier/python-goose",
         "description": "Html Content / Article Extractor, web scrapping lib in Python",
-        "stars": 4108,
+        "stars": 4107,
         "version": "-",
         "updated_at": "2026-03-10",
         "topics": []
@@ -3816,7 +3816,7 @@
         "full_name": "buriy/python-readability",
         "url": "https://github.com/buriy/python-readability",
         "description": "fast python port of arc90's readability tool, updated to match latest readability.js!",
-        "stars": 2893,
+        "stars": 2892,
         "version": "0.9",
         "updated_at": "2026-08-26",
         "topics": []
@@ -3906,7 +3906,7 @@
         "full_name": "eliasdabbas/advertools",
         "url": "https://github.com/eliasdabbas/advertools",
         "description": "advertools - online marketing productivity and analysis tools",
-        "stars": 1457,
+        "stars": 1456,
         "version": "-",
         "updated_at": "2026-06-30",
         "topics": [
@@ -3977,7 +3977,7 @@
         "full_name": "david96182/ninjemail",
         "url": "https://github.com/david96182/ninjemail",
         "description": "Python library for automated email account creation. Create multiple accounts easily with support for major email providers.",
-        "stars": 310,
+        "stars": 309,
         "version": "-",
         "updated_at": "2025-08-10",
         "topics": [
@@ -4076,7 +4076,7 @@
         "full_name": "shadowsocks/shadowsocks",
         "url": "https://github.com/shadowsocks/shadowsocks",
         "description": "-",
-        "stars": 33540,
+        "stars": 33541,
         "version": "2.9.1",
         "updated_at": "2017-01-02",
         "topics": []
